@@ -1,0 +1,3753 @@
+{
+  "id": "a8837030-0ba5-4a35-ac3d-f67911347aa7",
+  "version": "2.0",
+  "name": "Intel",
+  "url": "https://www.intel.com/content/www/us/en/homepage.html",
+  "tests": [{
+    "id": "fbbe5faa-5d55-4acd-93cc-64851b9ea07a",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "da809976-4dd5-402f-96ae-966e5018363e",
+    "name": "Intel-product-wireless",
+    "commands": [{
+      "id": "a047c295-54d4-434d-9a8a-47f752ca7c7f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fabc6174-b7e4-44a8-9d69-133dfef54029",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77d7bb53-6fb8-46f7-9e2e-8a834c08b774",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=span:nth-child(5) > img",
+      "targets": [
+        ["css=span:nth-child(5) > img", "css:finder"],
+        ["xpath=//img[@alt='Rpl dotcom']", "xpath:img"],
+        ["xpath=//div[@id='homepageHero-1']/div/div[2]/div/div[2]/div/span/a/span[5]/img", "xpath:idRelative"],
+        ["xpath=//span[5]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a249abd-bc33-4f84-bb1e-ce43aef34b77",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=span:nth-child(5) > img",
+      "targets": [
+        ["css=span:nth-child(5) > img", "css:finder"],
+        ["xpath=//img[@alt='Rpl dotcom']", "xpath:img"],
+        ["xpath=//div[@id='homepageHero-1']/div/div[2]/div/div[2]/div/span/a/span[5]/img", "xpath:idRelative"],
+        ["xpath=//span[5]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02347420-2351-4ad9-9e37-331e788e2e25",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-6:nth-child(2) span",
+      "targets": [
+        ["css=.col-xs-6:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='homePageResourcesBar-1']/section/div/div[2]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//section/div/div[2]/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Product Specs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03b0758a-d8fb-42bc-9dec-3163495dc078",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ark-accessible-color:nth-child(1) > .name",
+      "targets": [
+        ["css=.ark-accessible-color:nth-child(1) > .name", "css:finder"],
+        ["xpath=//div[@id='product-selector-1']/div[2]/div/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Processors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b60e32df-81ae-491f-983c-7b2b4b23513b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=back",
+      "targets": [
+        ["linkText=back", "linkText"],
+        ["css=.table-cell > a", "css:finder"],
+        ["xpath=//a[contains(text(),'back')]", "xpath:link"],
+        ["xpath=//div[@id='product-selector-1']/div/div/span/h3/a", "xpath:idRelative"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'back')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73696e4b-5d97-41f4-9272-3ecb1ba1f786",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ark-accessible-color:nth-child(4) > .name",
+      "targets": [
+        ["css=.ark-accessible-color:nth-child(4) > .name", "css:finder"],
+        ["xpath=//div[@id='product-selector-1']/div[2]/div/div[4]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Wireless')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99103899-14ab-45a5-8641-4eadb0d8ed44",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Wireless:nth-child(1) > .name",
+      "targets": [
+        ["css=.Wireless:nth-child(1) > .name", "css:finder"],
+        ["xpath=//div[@id='product-selector-1']/div[3]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Intel® Killer™ Wi-Fi Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e35f066d-5f3c-4959-952a-6d097ee197cc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,170)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79dae047-6cb7-436f-b7f8-d5846ba27144",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Find products by feature",
+      "targets": [
+        ["linkText=Find products by feature", "linkText"],
+        ["css=.col-xs-12 > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Find products by feature')]", "xpath:link"],
+        ["xpath=//main[@id='primary-content']/div[2]/div[2]/div[3]/section/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/ark/search/featurefilter.html')]", "xpath:href"],
+        ["xpath=//section/div/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Find products by feature')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ffb0c37-f5ef-4f76-8c60-d17364d27b5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-switch-input:nth-child(2) > .radio-button",
+      "targets": [
+        ["css=.has-switch-input:nth-child(2) > .radio-button", "css:finder"],
+        ["xpath=//main[@id='primary-content']/div/div/div[3]/form/div/div/div/div[2]/div/label[2]/span", "xpath:idRelative"],
+        ["xpath=//label[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e25bad4-e189-4d9d-a1a0-d037eb6dd373",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-focus #filter-select",
+      "targets": [
+        ["css=.has-focus #filter-select", "css:finder"],
+        ["xpath=(//select[@id='filter-select'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='primary-content']/div/div/div[3]/form/div/div/div/div[3]/div[2]/div/div/div/div/label/span[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/label/span[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fc86ce1-bd69-467b-aac5-879a88a8bd48",
+      "comment": "",
+      "command": "select",
+      "target": "css=.has-focus #filter-select",
+      "targets": [],
+      "value": "label=Integrated SAS Ports"
+    }, {
+      "id": "22910787-21db-4874-b38e-44d911cc8cc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-focus #filter-value-range-select-min",
+      "targets": [
+        ["css=.has-focus #filter-value-range-select-min", "css:finder"],
+        ["xpath=(//select[@id='filter-value-range-select-min'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='primary-content']/div/div/div[3]/form/div/div/div/div[3]/div[2]/div/div/div[3]/label/span[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/label/span[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "359ea3a8-b7b3-452f-b6f1-8987b3b5148e",
+      "comment": "",
+      "command": "select",
+      "target": "css=.has-focus #filter-value-range-select-min",
+      "targets": [],
+      "value": "label=6"
+    }, {
+      "id": "7454fa11-80f7-4469-8d46-afdd22a52076",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-focus #filter-value-range-select-max",
+      "targets": [
+        ["css=.has-focus #filter-value-range-select-max", "css:finder"],
+        ["xpath=(//select[@id='filter-value-range-select-max'])[2]", "xpath:attributes"],
+        ["xpath=//main[@id='primary-content']/div/div/div[3]/form/div/div/div/div[3]/div[2]/div/div/div[3]/label[2]/span[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/label[2]/span[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0df06ccd-bb84-4278-a5f9-2f1bfb7e870b",
+      "comment": "",
+      "command": "select",
+      "target": "css=.has-focus #filter-value-range-select-max",
+      "targets": [],
+      "value": "label=8"
+    }, {
+      "id": "1bf64557-1b98-4aea-8402-bd07fd742d77",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Intel® Server System M50CYP2UR208",
+      "targets": [
+        ["linkText=Intel® Server System M50CYP2UR208", "linkText"],
+        ["css=.blank-table-row:nth-child(3) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Intel® Server System M50CYP2UR208')]", "xpath:link"],
+        ["xpath=//table[@id='product-table']/tbody/tr[3]/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/ark/products/214837/intel-server-system-m50cyp2ur208.html')]", "xpath:href"],
+        ["xpath=//tr[3]/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intel® Server System M50CYP2UR208')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db750903-88dc-4dce-a13f-f4cd3c3350a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tab-blade-1-0-0 > #bladeInside li:nth-child(7) > .label",
+      "targets": [
+        ["css=#tab-blade-1-0-0 > #bladeInside li:nth-child(7) > .label", "css:finder"],
+        ["xpath=//div[@id='bladeInside']/ul/li[7]/span", "xpath:idRelative"],
+        ["xpath=//li[7]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Extended Warranty Available for Purchase (Select Countries)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbf79854-84e9-4e98-8b29-d0a9dd6a86be",
+      "comment": "",
+      "command": "click",
+      "target": "id=exportSpecification",
+      "targets": [
+        ["id=exportSpecification", "id"],
+        ["linkText=Export specifications", "linkText"],
+        ["css=#exportSpecification", "css:finder"],
+        ["xpath=//a[contains(text(),'Export specifications')]", "xpath:link"],
+        ["xpath=//a[@id='exportSpecification']", "xpath:attributes"],
+        ["xpath=//div[@id='bladeInside']/div/a", "xpath:idRelative"],
+        ["xpath=//section/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Export specifications')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "22b9ea6f-e10b-468c-963f-f5eea69cf45c",
+    "name": "Intel-ethernet-products",
+    "commands": [{
+      "id": "7965096e-6c19-4c62-80e9-6e40591ffd1e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54d5057a-d78d-4f86-a70f-6ede7ac569ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f569a87a-f2a2-4099-95c4-e3dd7484f7d7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Product Specs",
+      "targets": [
+        ["linkText=Product Specs", "linkText"],
+        ["css=.col-xs-6:nth-child(2) > .icon", "css:finder"],
+        ["xpath=//div[@id='homePageResourcesBar-1']/section/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://ark.intel.com/')])[2]", "xpath:href"],
+        ["xpath=//section/div/div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Product Specs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92aed79f-6b02-48fe-a208-ee6fdbc2a7e7",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ark-accessible-color:nth-child(5) > .name",
+      "targets": [
+        ["css=.ark-accessible-color:nth-child(5) > .name", "css:finder"],
+        ["xpath=//div[@id='product-selector-1']/div[2]/div/div[5]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Ethernet Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d3e7505-e859-411e-bba3-85bd066fe1af",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.ark-accessible-color:nth-child(2) > .name",
+      "targets": [
+        ["css=.ark-accessible-color:nth-child(2) > .name", "css:finder"],
+        ["xpath=//div[@id='product-selector-1']/div[2]/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Server Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebf0bcf5-4a79-4406-a504-408f43b7304e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-categories-1 > .row",
+      "targets": [
+        ["css=.product-categories-1 > .row", "css:finder"],
+        ["xpath=//div[@id='product-selector-1']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e24bb607-50b5-442e-965b-3c4919cc9a2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ark-accessible-color:nth-child(5) > .name",
+      "targets": [
+        ["css=.ark-accessible-color:nth-child(5) > .name", "css:finder"],
+        ["xpath=//div[@id='product-selector-1']/div[2]/div/div[5]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Ethernet Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be29eb0c-7495-4dd5-995e-bf8f0e4e4720",
+      "comment": "",
+      "command": "click",
+      "target": "css=.EthernetProducts:nth-child(1) > .name",
+      "targets": [
+        ["css=.EthernetProducts:nth-child(1) > .name", "css:finder"],
+        ["xpath=//div[@id='product-selector-1']/div[7]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'800 Series Network Adapters (up to 100GbE)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "860a67fd-9104-4fa3-af51-189fe5a71edc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.products:nth-child(19) .third-2 > .name",
+      "targets": [
+        ["css=.products:nth-child(19) .third-2 > .name", "css:finder"],
+        ["xpath=//div[@id='product-selector-1']/div[19]/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[19]/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'25GbE Intel® Ethernet Network Adapter E810')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07e7b1d9-3c03-4bae-9162-5f869e62038b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Intel® Ethernet Network Adapter E810-XXVDA2",
+      "targets": [
+        ["linkText=Intel® Ethernet Network Adapter E810-XXVDA2", "linkText"],
+        ["css=.blank-table-row:nth-child(3) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Intel® Ethernet Network Adapter E810-XXVDA2')]", "xpath:link"],
+        ["xpath=//table[@id='product-table']/tbody/tr[3]/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/ark/products/189760/intel-ethernet-network-adapter-e810xxvda2.html')]", "xpath:href"],
+        ["xpath=//tr[3]/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intel® Ethernet Network Adapter E810-XXVDA2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87bf2fea-f21e-4e8c-a769-1c9f92c56ce2",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .has-switch-input > .check-box",
+      "targets": [
+        ["css=form > .has-switch-input > .check-box", "css:finder"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div/div/div/div[2]/form/label/span", "xpath:idRelative"],
+        ["xpath=//div[2]/form/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "eb117df7-9879-4065-8fca-74509de7c8c5",
+    "name": "intel-memory-spec",
+    "commands": [{
+      "id": "65e4d948-7bb8-4946-96b6-b4ea4ad753ab",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb6483a6-a59c-41c7-9712-95605d20ff46",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80149d4e-1353-4356-a16e-9ad10c71ab7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-6:nth-child(2) span",
+      "targets": [
+        ["css=.col-xs-6:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='homePageResourcesBar-1']/section/div/div[2]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//section/div/div[2]/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Product Specs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bae5f911-1d6b-4ba5-a92b-5884a2572842",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,19.33333396911621)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75592687-635a-4de6-ba77-417f90033a52",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,188)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14f87631-da2b-4267-890e-99b6b8cac2ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ark-accessible-color:nth-child(7) > .name",
+      "targets": [
+        ["css=.ark-accessible-color:nth-child(7) > .name", "css:finder"],
+        ["xpath=//div[@id='product-selector-1']/div[2]/div/div[7]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Memory and Storage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ea548cd-5221-4b2e-a060-20aa2c24c51b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c05c2c6-d258-4e5d-89dc-442dfaf0961c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MemoryandStorage:nth-child(1)",
+      "targets": [
+        ["css=.MemoryandStorage:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='product-selector-1']/div[8]/div/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc2b2187-3299-48df-817f-92c01c3dbe36",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Intel® Optane™ SSD 9 Series",
+      "targets": [
+        ["linkText=Intel® Optane™ SSD 9 Series", "linkText"],
+        ["css=.products:nth-child(28) .product:nth-child(1) .ark-accessible-color", "css:finder"],
+        ["xpath=//a[contains(text(),'Intel® Optane™ SSD 9 Series')]", "xpath:link"],
+        ["xpath=//div[@id='product-selector-1']/div[28]/div/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/ark/products/series/213701/intel-optane-ssd-9-series.html')]", "xpath:href"],
+        ["xpath=//div[28]/div/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intel® Optane™ SSD 9 Series')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "767547bc-914e-46bd-91cd-21d77e8a44fd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.blank-table-row:nth-child(1) a",
+      "targets": [
+        ["css=.blank-table-row:nth-child(1) a", "css:finder"],
+        ["xpath=//table[@id='product-table']/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/ark/products/148607/intel-optane-ssd-905p-series-380gb-m-2-110mm-pcie-x4-20nm-3d-xpoint.html')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a72b84c8-bf66-4953-8b44-c844bb1aa3e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.blank-table-row:nth-child(1) a",
+      "targets": [
+        ["css=.blank-table-row:nth-child(1) a", "css:finder"],
+        ["xpath=//table[@id='product-table']/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/ark/products/148607/intel-optane-ssd-905p-series-380gb-m-2-110mm-pcie-x4-20nm-3d-xpoint.html')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "60883221-80cf-4b2b-9f99-e843aaddd02b",
+    "name": "intel-product-spec",
+    "commands": [{
+      "id": "f605f3e1-1c46-4dfd-a70b-8dd1b2e35f13",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f514bb9-60c0-4fd1-8089-a1d58b66615f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a845730-973b-4acc-8bbe-fce85cf887c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-6:nth-child(2) span",
+      "targets": [
+        ["css=.col-xs-6:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='homePageResourcesBar-1']/section/div/div[2]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//section/div/div[2]/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Product Specs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a91a952e-3176-44ad-81f0-d979a0196220",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ark-accessible-color:nth-child(8) > .name",
+      "targets": [
+        ["css=.ark-accessible-color:nth-child(8) > .name", "css:finder"],
+        ["xpath=//div[@id='product-selector-1']/div[2]/div/div[8]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[8]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Chipsets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e31d90b8-e0e6-47be-90c6-c8a0be5844bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Chipsets:nth-child(1) > .name",
+      "targets": [
+        ["css=.Chipsets:nth-child(1) > .name", "css:finder"],
+        ["xpath=//div[@id='product-selector-1']/div[11]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[11]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Desktop Chipsets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3c532ff-4f7c-459d-9621-a2c08aa01e06",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Intel® 700 Series Desktop Chipsets",
+      "targets": [
+        ["linkText=Intel® 700 Series Desktop Chipsets", "linkText"],
+        ["css=.products:nth-child(80) .product:nth-child(1) .ark-accessible-color", "css:finder"],
+        ["xpath=//a[contains(text(),'Intel® 700 Series Desktop Chipsets')]", "xpath:link"],
+        ["xpath=//div[@id='product-selector-1']/div[80]/div/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/ark/products/series/229717/intel-700-series-desktop-chipsets.html')]", "xpath:href"],
+        ["xpath=//div[80]/div/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intel® 700 Series Desktop Chipsets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6eaaca2b-a0e6-45d7-9a03-96ae2bd87c58",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Intel® Z790 Chipset",
+      "targets": [
+        ["linkText=Intel® Z790 Chipset", "linkText"],
+        ["css=.ark-product-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Intel® Z790 Chipset')]", "xpath:link"],
+        ["xpath=//table[@id='product-table']/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/ark/products/229721/intel-z790-chipset.html')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intel® Z790 Chipset')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c021124d-216e-4fa1-b315-f66929d3ce52",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Specifications",
+      "targets": [
+        ["linkText=Specifications", "linkText"],
+        ["css=.specs-nav-section:nth-child(1) > .spec-section-title", "css:finder"],
+        ["xpath=(//a[contains(text(),'Specifications')])[2]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfad2243-f705-4ed1-a12c-95976dd1316e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Supplemental Information",
+      "targets": [
+        ["linkText=Supplemental Information", "linkText"],
+        ["css=.always-active li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Supplemental Information')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0-1')]", "xpath:href"],
+        ["xpath=//li/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Supplemental Information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fff77f7-6bf3-406d-8935-9d149274b676",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Memory Specifications",
+      "targets": [
+        ["linkText=Memory Specifications", "linkText"],
+        ["css=.always-active li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Memory Specifications')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0-2')]", "xpath:href"],
+        ["xpath=//li/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Memory Specifications')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d70024d4-fdd6-49ba-99b1-4cfea9fc4650",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Processor Graphics",
+      "targets": [
+        ["linkText=Processor Graphics", "linkText"],
+        ["css=.always-active li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Processor Graphics')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0-3')]", "xpath:href"],
+        ["xpath=//li/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Processor Graphics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa8b5611-fd31-4703-b09e-2e57aec7de6b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Expansion Options",
+      "targets": [
+        ["linkText=Expansion Options", "linkText"],
+        ["css=.always-active li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Expansion Options')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0-4')]", "xpath:href"],
+        ["xpath=//li/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Expansion Options')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da57b7c4-0267-4f89-9ca3-7bf0d22933a1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=I/O Specifications",
+      "targets": [
+        ["linkText=I/O Specifications", "linkText"],
+        ["css=.always-active li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'I/O Specifications')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0-5')]", "xpath:href"],
+        ["xpath=//li/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'I/O Specifications')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b77fbe60-9e18-4078-bdcf-010fdf831deb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Package Specifications",
+      "targets": [
+        ["linkText=Package Specifications", "linkText"],
+        ["css=.always-active li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Package Specifications')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0-6')]", "xpath:href"],
+        ["xpath=//li/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Package Specifications')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1ea2664-fad3-4d8a-8448-9feb7104ec42",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Advanced Technologies",
+      "targets": [
+        ["linkText=Advanced Technologies", "linkText"],
+        ["css=.always-active li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Advanced Technologies')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0-7')]", "xpath:href"],
+        ["xpath=//li/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Advanced Technologies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "152fc22d-6662-4862-a012-51a4e8ec0b38",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Security & Reliability",
+      "targets": [
+        ["linkText=Security & Reliability", "linkText"],
+        ["css=.always-active li:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Security & Reliability')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0-8')]", "xpath:href"],
+        ["xpath=//li/ul/li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Security & Reliability')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16fa57ed-4ac9-4fad-817b-055f9396eea8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ordering and Compliance",
+      "targets": [
+        ["linkText=Ordering and Compliance", "linkText"],
+        ["css=#tab-side-1-4 > .spec-section-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Ordering and Compliance')]", "xpath:link"],
+        ["xpath=//li[@id='tab-side-1-4']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-4')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ordering and Compliance')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b543fb4b-e13b-4bd1-9bf5-12c048133ff4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ordering and spec information",
+      "targets": [
+        ["linkText=Ordering and spec information", "linkText"],
+        ["css=#tab-side-1-4 li:nth-child(1) > .ark-accessible-color", "css:finder"],
+        ["xpath=//a[contains(text(),'Ordering and spec information')]", "xpath:link"],
+        ["xpath=//li[@id='tab-side-1-4']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-4-0')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ordering and spec information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8581460e-4248-4c2f-9959-df786f46c7df",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trade compliance information",
+      "targets": [
+        ["linkText=Trade compliance information", "linkText"],
+        ["css=#tab-side-1-4 li:nth-child(2) > .ark-accessible-color", "css:finder"],
+        ["xpath=//a[contains(text(),'Trade compliance information')]", "xpath:link"],
+        ["xpath=//li[@id='tab-side-1-4']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-4-2')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Trade compliance information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74052173-1b47-4a1c-b32d-e635ba697976",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Compatible Products",
+      "targets": [
+        ["linkText=Compatible Products", "linkText"],
+        ["css=.specs-nav-section:nth-child(3) > .spec-section-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Compatible Products')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-1')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Compatible Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c57742f-c211-44c3-9aa6-84f1b9b3b748",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=12th Generation Intel® Core™ i9 Processors",
+      "targets": [
+        ["linkText=12th Generation Intel® Core™ i9 Processors", "linkText"],
+        ["css=.always-active li:nth-child(2) > .ark-accessible-color", "css:finder"],
+        ["xpath=//a[contains(text(),'12th Generation Intel® Core™ i9 Processors')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-1-1')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'12th Generation Intel® Core™ i9 Processors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e52ab629-9589-41a7-a367-ff3d3e183cd1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=13th Generation Intel® Core™ i7 Processors",
+      "targets": [
+        ["linkText=13th Generation Intel® Core™ i7 Processors", "linkText"],
+        ["css=.specs-nav-section li:nth-child(3) > .ark-accessible-color", "css:finder"],
+        ["xpath=//a[contains(text(),'13th Generation Intel® Core™ i7 Processors')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-1-2')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'13th Generation Intel® Core™ i7 Processors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8757d0e1-bdc2-44ae-90fc-e3b7124547f3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=12th Generation Intel® Core™ i7 Processors",
+      "targets": [
+        ["linkText=12th Generation Intel® Core™ i7 Processors", "linkText"],
+        ["css=.specs-nav-section li:nth-child(4) > .ark-accessible-color", "css:finder"],
+        ["xpath=//a[contains(text(),'12th Generation Intel® Core™ i7 Processors')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li[3]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-1-3')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'12th Generation Intel® Core™ i7 Processors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27fc7e20-5fe6-4c43-a6c3-6f7149bce269",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=13th Generation Intel® Core™ i5 Processors",
+      "targets": [
+        ["linkText=13th Generation Intel® Core™ i5 Processors", "linkText"],
+        ["css=li:nth-child(5) > .ark-accessible-color", "css:finder"],
+        ["xpath=//a[contains(text(),'13th Generation Intel® Core™ i5 Processors')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li[3]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-1-4')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'13th Generation Intel® Core™ i5 Processors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4434f95-9450-4974-87b4-a5e54d545e19",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=12th Generation Intel® Core™ i5 Processors",
+      "targets": [
+        ["linkText=12th Generation Intel® Core™ i5 Processors", "linkText"],
+        ["css=.active:nth-child(6) > .ark-accessible-color", "css:finder"],
+        ["xpath=//a[contains(text(),'12th Generation Intel® Core™ i5 Processors')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li[3]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-1-5')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'12th Generation Intel® Core™ i5 Processors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38725c62-a166-45e2-99bb-d279529bb916",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=12th Generation Intel® Core™ i3 Processors",
+      "targets": [
+        ["linkText=12th Generation Intel® Core™ i3 Processors", "linkText"],
+        ["css=li:nth-child(7) > .ark-accessible-color", "css:finder"],
+        ["xpath=//a[contains(text(),'12th Generation Intel® Core™ i3 Processors')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li[3]/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-1-6')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'12th Generation Intel® Core™ i3 Processors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7a02fbc-ff3d-4e2d-ab70-697c6794635f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Intel® Pentium® Gold Processor Series",
+      "targets": [
+        ["linkText=Intel® Pentium® Gold Processor Series", "linkText"],
+        ["css=li:nth-child(8) > .ark-accessible-color", "css:finder"],
+        ["xpath=//a[contains(text(),'Intel® Pentium® Gold Processor Series')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li[3]/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-1-7')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intel® Pentium® Gold Processor Series')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4899fe0c-4927-4268-825c-2d5854d19ad8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Intel® Celeron® Processor G Series",
+      "targets": [
+        ["linkText=Intel® Celeron® Processor G Series", "linkText"],
+        ["css=li:nth-child(9) > .ark-accessible-color", "css:finder"],
+        ["xpath=//a[contains(text(),'Intel® Celeron® Processor G Series')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li[3]/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-1-8')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intel® Celeron® Processor G Series')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b13d2f16-3440-426c-9eaf-fa32904a1a8e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Product Specifications",
+      "targets": [
+        ["linkText=Product Specifications", "linkText"],
+        ["css=.intel-cta:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Product Specifications')]", "xpath:link"],
+        ["xpath=//div[@id='sticky-wrapper']/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/content/www/us/en/ark.html')])[2]", "xpath:href"],
+        ["xpath=//div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e42f33b-f1ba-44c9-8227-397f4f954bcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ark-accessible-color:nth-child(9) > .name",
+      "targets": [
+        ["css=.ark-accessible-color:nth-child(9) > .name", "css:finder"],
+        ["xpath=//div[@id='product-selector-1']/div[2]/div/div[9]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[9]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Graphics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "baeb3fa3-f864-46c0-bbda-694c9f7b4172",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Graphics:nth-child(1) > .name",
+      "targets": [
+        ["css=.Graphics:nth-child(1) > .name", "css:finder"],
+        ["xpath=//div[@id='product-selector-1']/div[4]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Intel® Iris® Xe Dedicated Graphics Family')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8be39f85-e9ee-4fef-ab64-91ec64aba48c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Intel® Iris® Xe MAX Dedicated Graphics Family",
+      "targets": [
+        ["linkText=Intel® Iris® Xe MAX Dedicated Graphics Family", "linkText"],
+        ["css=.products:nth-child(15) .ark-accessible-color", "css:finder"],
+        ["xpath=//a[contains(text(),'Intel® Iris® Xe MAX Dedicated Graphics Family')]", "xpath:link"],
+        ["xpath=//div[@id='product-selector-1']/div[15]/div/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/ark/products/series/213724/intel-iris-xe-max-dedicated-graphics-family.html')]", "xpath:href"],
+        ["xpath=//div[15]/div/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intel® Iris® Xe MAX Dedicated Graphics Family')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32f911ac-2133-48b7-ae23-1dd2b0b1a06c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Intel® Iris® Xe MAX Graphics",
+      "targets": [
+        ["linkText=Intel® Iris® Xe MAX Graphics", "linkText"],
+        ["css=.ark-product-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Intel® Iris® Xe MAX Graphics')]", "xpath:link"],
+        ["xpath=//table[@id='product-table']/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/ark/products/211013/intel-iris-xe-max-graphics-96-eu.html')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intel® Iris® Xe MAX Graphics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76d8dc8b-57de-4f31-9692-11fba3c0cdcc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Specifications",
+      "targets": [
+        ["linkText=Specifications", "linkText"],
+        ["css=.specs-nav-section:nth-child(1) > .spec-section-title", "css:finder"],
+        ["xpath=(//a[contains(text(),'Specifications')])[2]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "663b5f82-9687-41c5-9232-5cdcc16cbcba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=GPU Specifications",
+      "targets": [
+        ["linkText=GPU Specifications", "linkText"],
+        ["css=.specs-nav-section li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'GPU Specifications')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0-1')]", "xpath:href"],
+        ["xpath=//li/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'GPU Specifications')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4b2ca77-7efd-4c5b-944e-a194d9492e45",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Memory Specifications",
+      "targets": [
+        ["linkText=Memory Specifications", "linkText"],
+        ["css=.nav > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Memory Specifications')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0-2')]", "xpath:href"],
+        ["xpath=//li/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Memory Specifications')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "835cb1d1-e115-4be9-be03-5162f413e659",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Supported Technologies",
+      "targets": [
+        ["linkText=Supported Technologies", "linkText"],
+        ["css=.nav > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Supported Technologies')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0-3')]", "xpath:href"],
+        ["xpath=//li/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Supported Technologies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68e12113-5b78-407e-8c1d-9a4b8e7b1e20",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=I/O Specifications",
+      "targets": [
+        ["linkText=I/O Specifications", "linkText"],
+        ["css=.nav > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'I/O Specifications')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0-4')]", "xpath:href"],
+        ["xpath=//li/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'I/O Specifications')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a85d23ee-53fb-4a39-9857-84a0f90d1a39",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Features",
+      "targets": [
+        ["linkText=Features", "linkText"],
+        ["css=.nav > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Features')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0-5')]", "xpath:href"],
+        ["xpath=//li/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Features')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf33bba6-df6b-4c68-81ac-0d30ce98ac59",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Advanced Technologies",
+      "targets": [
+        ["linkText=Advanced Technologies", "linkText"],
+        ["css=.nav > li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Advanced Technologies')]", "xpath:link"],
+        ["xpath=//div[@id='arkProductPageComponent-1']/div[2]/div/nav/ul/li/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tab-blade-1-0-6')]", "xpath:href"],
+        ["xpath=//li/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Advanced Technologies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07746ef9-14e7-4c2b-a8e0-62e4abb74b38",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Drivers and Software",
+      "targets": [
+        ["linkText=Drivers and Software", "linkText"],
+        ["css=.tab-side-1-7-client:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Drivers and Software')]", "xpath:link"],
+        ["xpath=//li[@id='tab-side-1-7']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.intel.com/content/www/us/en/products/sku/211013/intel-iris-xe-max-graphics-96-eu/downloads.html')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Drivers and Software')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d81b4eb2-c310-45d4-94bd-0bf53ba671a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filterby-os",
+      "targets": [
+        ["css=.filterby-os", "css:finder"],
+        ["xpath=//div[@id='new-tab-blade-1-7-0']/div/div/div[4]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38b1730e-3c95-455a-aad1-4543c2f42683",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-option:nth-child(1)",
+      "targets": [
+        ["css=.filter-option:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='new-tab-blade-1-7-0']/div/div/div[4]/div[2]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Windows 10* (20H2)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "feb73a2a-6d37-4aeb-8b94-fdefbc69dffb",
+      "comment": "",
+      "command": "click",
+      "target": "id=downloads-filter-search",
+      "targets": [
+        ["id=downloads-filter-search", "id"],
+        ["css=#downloads-filter-search", "css:finder"],
+        ["xpath=//input[@id='downloads-filter-search']", "xpath:attributes"],
+        ["xpath=//div[@id='new-tab-blade-1-7-0']/div/div/div[4]/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b17a2539-f857-4bcb-b9af-8cc98eb85c4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.downloads-row:nth-child(3) .fa-angle-down",
+      "targets": [
+        ["css=.downloads-row:nth-child(3) .fa-angle-down", "css:finder"],
+        ["xpath=//div[@id='new-tab-blade-1-7-0']/div/div/div[4]/div[4]/div[3]/div/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div[3]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91989d09-1300-4321-ac76-dae0afe46be9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View download options.",
+      "targets": [
+        ["linkText=View download options.", "linkText"],
+        ["css=.expanded .download-details", "css:finder"],
+        ["xpath=(//a[contains(text(),'View download options.')])[2]", "xpath:link"],
+        ["xpath=//div[@id='new-tab-blade-1-7-0']/div/div/div[4]/div[4]/div[3]/div/div[5]/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.intel.com/content/www/us/en/download/19344/intel-graphics-windows-dch-drivers.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div[5]/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19dba8a7-735c-41aa-9af6-1824129fc14f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,67.33333587646484)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c036344-a3e7-4f80-8711-9338461fd9f1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,188)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f2b135b-bbef-4768-802f-d789003023f0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b9b70e2-0dad-43fe-b5bd-3241a24f7073",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1080.6666259765625)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "563ee170-27c9-47c0-ae90-dc40fc363cd9",
+    "name": "intel-product-category",
+    "commands": [{
+      "id": "241013e1-82a3-4ad8-b794-8c910005639d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53121410-7a43-4a45-b6d7-3345b5e4edd4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11da08eb-5b95-472c-8076-d1bbdb2ee904",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-6:nth-child(3) span",
+      "targets": [
+        ["css=.col-xs-6:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='homePageResourcesBar-1']/section/div/div[2]/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//section/div/div[2]/ul/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'See Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47a9d783-8b3a-44a2-a78b-248006df2c32",
+      "comment": "",
+      "command": "click",
+      "target": "id=pg-sub-nav-browsebycategory-Intel-NUC",
+      "targets": [
+        ["id=pg-sub-nav-browsebycategory-Intel-NUC", "id"],
+        ["linkText=Intel® NUC", "linkText"],
+        ["css=#pg-sub-nav-browsebycategory-Intel-NUC", "css:finder"],
+        ["xpath=//a[@id='pg-sub-nav-browsebycategory-Intel-NUC']", "xpath:attributes"],
+        ["xpath=//div[@id='pg-browsebycategory']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[9]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aa57b01-b178-4f3b-94f2-c2b57166438c",
+      "comment": "",
+      "command": "click",
+      "target": "id=pg-sub-nav-browsebycategory-Wireless",
+      "targets": [
+        ["id=pg-sub-nav-browsebycategory-Wireless", "id"],
+        ["linkText=Wireless", "linkText"],
+        ["css=#pg-sub-nav-browsebycategory-Wireless", "css:finder"],
+        ["xpath=//a[@id='pg-sub-nav-browsebycategory-Wireless']", "xpath:attributes"],
+        ["xpath=//div[@id='pg-browsebycategory']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[10]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a9ac429-9129-41f0-b825-0905bdb8912a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=pg-sub-nav-browsebycategory-Wireless",
+      "targets": [
+        ["id=pg-sub-nav-browsebycategory-Wireless", "id"],
+        ["linkText=Wireless", "linkText"],
+        ["css=#pg-sub-nav-browsebycategory-Wireless", "css:finder"],
+        ["xpath=//a[@id='pg-sub-nav-browsebycategory-Wireless']", "xpath:attributes"],
+        ["xpath=//div[@id='pg-browsebycategory']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[10]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce166a84-49c9-4cc3-bee1-91c53a74be9f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=pg-sub-nav-browsebycategory-Wireless",
+      "targets": [
+        ["id=pg-sub-nav-browsebycategory-Wireless", "id"],
+        ["linkText=Wireless", "linkText"],
+        ["css=#pg-sub-nav-browsebycategory-Wireless", "css:finder"],
+        ["xpath=//a[@id='pg-sub-nav-browsebycategory-Wireless']", "xpath:attributes"],
+        ["xpath=//div[@id='pg-browsebycategory']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[10]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52e042b1-c2cc-4df1-a0f0-e5bb86c888d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#pg-sub-nav-browsebycategory-Ethernet-Products > .fa-ethernet-products",
+      "targets": [
+        ["css=#pg-sub-nav-browsebycategory-Ethernet-Products > .fa-ethernet-products", "css:finder"],
+        ["xpath=//a[@id='pg-sub-nav-browsebycategory-Ethernet-Products']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/ul/li[5]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7865d2a7-4778-4f9a-806e-832a8d8188f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=pg-sub-nav-browsebycategory-Intel-FPGAs",
+      "targets": [
+        ["id=pg-sub-nav-browsebycategory-Intel-FPGAs", "id"],
+        ["linkText=Intel® FPGAs", "linkText"],
+        ["css=#pg-sub-nav-browsebycategory-Intel-FPGAs", "css:finder"],
+        ["xpath=//a[@id='pg-sub-nav-browsebycategory-Intel-FPGAs']", "xpath:attributes"],
+        ["xpath=//div[@id='pg-browsebycategory']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[12]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62be76ef-0855-4332-9a54-8ca667dcfc3c",
+      "comment": "",
+      "command": "click",
+      "target": "id=pg-sub-nav-browsebycategory-Intel-eASIC™-Products",
+      "targets": [
+        ["id=pg-sub-nav-browsebycategory-Intel-eASIC™-Products", "id"],
+        ["linkText=Intel® eASIC™ Products", "linkText"],
+        ["css=#pg-sub-nav-browsebycategory-Intel-eASIC\\2122-Products", "css:finder"],
+        ["xpath=//a[@id='pg-sub-nav-browsebycategory-Intel-eASIC™-Products']", "xpath:attributes"],
+        ["xpath=//div[@id='pg-browsebycategory']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[13]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intel® eASIC™ Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c28b2aca-4c88-48c5-b85f-ace42fbd5ae2",
+      "comment": "",
+      "command": "click",
+      "target": "id=pg-sub-nav-browsebycategory-Memory-and-Storage",
+      "targets": [
+        ["id=pg-sub-nav-browsebycategory-Memory-and-Storage", "id"],
+        ["linkText=Memory and Storage", "linkText"],
+        ["css=#pg-sub-nav-browsebycategory-Memory-and-Storage", "css:finder"],
+        ["xpath=//a[@id='pg-sub-nav-browsebycategory-Memory-and-Storage']", "xpath:attributes"],
+        ["xpath=//div[@id='pg-browsebycategory']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[14]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Memory and Storage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0fdee30-01fc-4dcf-ab00-963c4cb20fc5",
+      "comment": "",
+      "command": "click",
+      "target": "id=pg-sub-nav-browsebycategory-Chipsets",
+      "targets": [
+        ["id=pg-sub-nav-browsebycategory-Chipsets", "id"],
+        ["linkText=Chipsets", "linkText"],
+        ["css=#pg-sub-nav-browsebycategory-Chipsets", "css:finder"],
+        ["xpath=//a[@id='pg-sub-nav-browsebycategory-Chipsets']", "xpath:attributes"],
+        ["xpath=//div[@id='pg-browsebycategory']/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[15]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/ul/li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e5027b6-d351-4e20-b9bf-0db4ce0d5d39",
+      "comment": "",
+      "command": "click",
+      "target": "id=pg-sub-nav-browsebycategory-Graphics",
+      "targets": [
+        ["id=pg-sub-nav-browsebycategory-Graphics", "id"],
+        ["linkText=Graphics", "linkText"],
+        ["css=#pg-sub-nav-browsebycategory-Graphics", "css:finder"],
+        ["xpath=//a[@id='pg-sub-nav-browsebycategory-Graphics']", "xpath:attributes"],
+        ["xpath=//div[@id='pg-browsebycategory']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[16]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/ul/li[10]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d47b71b-4c5d-488a-9d37-c4f119c471b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=pg-acc-browsebycategory-Graphics-Intel-Arc™-Dedicated-Graphics-Family",
+      "targets": [
+        ["id=pg-acc-browsebycategory-Graphics-Intel-Arc™-Dedicated-Graphics-Family", "id"],
+        ["css=#pg-acc-browsebycategory-Graphics-Intel-Arc\\2122-Dedicated-Graphics-Family", "css:finder"],
+        ["xpath=//a[@id='pg-acc-browsebycategory-Graphics-Intel-Arc™-Dedicated-Graphics-Family']", "xpath:attributes"],
+        ["xpath=//div[@id='pg-accordion-panel-browsebycategory-Graphics-1']/div/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#panel-content-browsebycategory-Graphics-1')]", "xpath:href"],
+        ["xpath=//div[10]/div/div/h4/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "515ffb4b-961f-4654-9c64-e7cd0fe7e8da",
+      "comment": "",
+      "command": "click",
+      "target": "id=pg-acc-browsebycategory-Graphics-Intel-Arc™-Dedicated-Graphics-Family",
+      "targets": [
+        ["id=pg-acc-browsebycategory-Graphics-Intel-Arc™-Dedicated-Graphics-Family", "id"],
+        ["css=#pg-acc-browsebycategory-Graphics-Intel-Arc\\2122-Dedicated-Graphics-Family", "css:finder"],
+        ["xpath=//a[@id='pg-acc-browsebycategory-Graphics-Intel-Arc™-Dedicated-Graphics-Family']", "xpath:attributes"],
+        ["xpath=//div[@id='pg-accordion-panel-browsebycategory-Graphics-1']/div/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#panel-content-browsebycategory-Graphics-1')]", "xpath:href"],
+        ["xpath=//div[10]/div/div/h4/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89b668b2-0bc8-4894-8615-83721fc0ec0b",
+      "comment": "",
+      "command": "click",
+      "target": "id=pg-acc-browsebycategory-Graphics-Intel-Iris-Xe-Dedicated-Graphics-Family",
+      "targets": [
+        ["id=pg-acc-browsebycategory-Graphics-Intel-Iris-Xe-Dedicated-Graphics-Family", "id"],
+        ["css=#pg-acc-browsebycategory-Graphics-Intel-Iris-Xe-Dedicated-Graphics-Family", "css:finder"],
+        ["xpath=//a[@id='pg-acc-browsebycategory-Graphics-Intel-Iris-Xe-Dedicated-Graphics-Family']", "xpath:attributes"],
+        ["xpath=//div[@id='pg-accordion-panel-browsebycategory-Graphics-2']/div/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#panel-content-browsebycategory-Graphics-2')]", "xpath:href"],
+        ["xpath=//div[10]/div[2]/div/h4/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e171ce8-bb38-47a2-aecd-86869b957c4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=pg-acc-browsebycategory-Graphics-Intel-Iris-Xe-Dedicated-Graphics-Family",
+      "targets": [
+        ["id=pg-acc-browsebycategory-Graphics-Intel-Iris-Xe-Dedicated-Graphics-Family", "id"],
+        ["css=#pg-acc-browsebycategory-Graphics-Intel-Iris-Xe-Dedicated-Graphics-Family", "css:finder"],
+        ["xpath=//a[@id='pg-acc-browsebycategory-Graphics-Intel-Iris-Xe-Dedicated-Graphics-Family']", "xpath:attributes"],
+        ["xpath=//div[@id='pg-accordion-panel-browsebycategory-Graphics-2']/div/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#panel-content-browsebycategory-Graphics-2')]", "xpath:href"],
+        ["xpath=//div[10]/div[2]/div/h4/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bfbd8de-a8bf-4e4f-9b6f-902aa7c1ac6f",
+      "comment": "",
+      "command": "click",
+      "target": "id=pg-acc-browsebycategory-Graphics-Multi-Purpose-GPUs",
+      "targets": [
+        ["id=pg-acc-browsebycategory-Graphics-Multi-Purpose-GPUs", "id"],
+        ["linkText=Multi-Purpose GPUs", "linkText"],
+        ["css=#pg-acc-browsebycategory-Graphics-Multi-Purpose-GPUs", "css:finder"],
+        ["xpath=//a[@id='pg-acc-browsebycategory-Graphics-Multi-Purpose-GPUs']", "xpath:attributes"],
+        ["xpath=//div[@id='pg-accordion-panel-browsebycategory-Graphics-3']/div/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#panel-content-browsebycategory-Graphics-3')]", "xpath:href"],
+        ["xpath=//div[10]/div[3]/div/h4/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4776f136-60c4-4dd6-a519-8322e5659904",
+      "comment": "",
+      "command": "click",
+      "target": "id=pg-acc-browsebycategory-Graphics-Multi-Purpose-GPUs",
+      "targets": [
+        ["id=pg-acc-browsebycategory-Graphics-Multi-Purpose-GPUs", "id"],
+        ["linkText=Multi-Purpose GPUs", "linkText"],
+        ["css=#pg-acc-browsebycategory-Graphics-Multi-Purpose-GPUs", "css:finder"],
+        ["xpath=//a[@id='pg-acc-browsebycategory-Graphics-Multi-Purpose-GPUs']", "xpath:attributes"],
+        ["xpath=//div[@id='pg-accordion-panel-browsebycategory-Graphics-3']/div/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#panel-content-browsebycategory-Graphics-3')]", "xpath:href"],
+        ["xpath=//div[10]/div[3]/div/h4/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "902fd002-85bc-4bf4-800b-5c6f40597517",
+    "name": "intel-community",
+    "commands": [{
+      "id": "19febd9d-f37a-4f42-8c4c-5a62198a20e5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "395a9460-3e89-4464-9bd0-4fb4c8f6fd7f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fdf3e41-d6f8-4023-a174-8e220a389b29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-users",
+      "targets": [
+        ["css=.fa-users", "css:finder"],
+        ["xpath=//div[@id='homePageResourcesBar-1']/section/div/div[2]/ul/li[4]/a/div", "xpath:idRelative"],
+        ["xpath=//li[4]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4041935b-47af-4c3a-a6e0-4ce56ea0af58",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.developer img",
+      "targets": [
+        ["css=.developer img", "css:finder"],
+        ["xpath=//img[@alt='All Developer Software Forums']", "xpath:img"],
+        ["xpath=//body[@id='lia-body']/div[2]/center/div[3]/div/div/div/div/div[2]/div/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b20e3543-31d6-4d5a-8060-7e61dd5c4f4b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.developer img",
+      "targets": [
+        ["css=.developer img", "css:finder"],
+        ["xpath=//img[@alt='All Developer Software Forums']", "xpath:img"],
+        ["xpath=//body[@id='lia-body']/div[2]/center/div[3]/div/div/div/div/div[2]/div/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "148e20e1-3cb3-43cd-906d-619726002176",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Software Archive",
+      "targets": [
+        ["linkText=Software Archive", "linkText"],
+        ["css=.developer li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Software Archive')])[2]", "xpath:link"],
+        ["xpath=//body[@id='lia-body']/div[2]/center/div[3]/div/div/div/div/div[2]/div/div/div/div[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/t5/Software-Archive/bd-p/software-archive')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[3]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7748752f-a60b-4162-944f-85bfac9d079e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Software Archive",
+      "targets": [
+        ["linkText=Software Archive", "linkText"],
+        ["css=.developer li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Software Archive')])[2]", "xpath:link"],
+        ["xpath=//body[@id='lia-body']/div[2]/center/div[3]/div/div/div/div/div[2]/div/div/div/div[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/t5/Software-Archive/bd-p/software-archive')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[3]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ef2313d-6bf7-4c41-8923-ede86401b9e3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=link_8",
+      "targets": [
+        ["id=link_8", "id"],
+        ["linkText=Is it possible to create and use an Android executable file with Unity?", "linkText"],
+        ["css=#link_8", "css:finder"],
+        ["xpath=//a[contains(text(),'Is it possible to create and use an Android executable file with Unity?')]", "xpath:link"],
+        ["xpath=//a[@id='link_8']", "xpath:attributes"],
+        ["xpath=//div[@id='grid']/table/tbody/tr/td[2]/div/div/div/div/h2/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/t5/Software-Archive/Is-it-possible-to-create-and-use-an-Android-executable-file-with/td-p/1233451')]", "xpath:href"],
+        ["xpath=//h2/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Is it possible to create and use an Android executable file with Unity?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6861b75-0a4f-44b2-9c2c-468bfbdf2ac8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=link_8",
+      "targets": [
+        ["id=link_8", "id"],
+        ["linkText=Is it possible to create and use an Android executable file with Unity?", "linkText"],
+        ["css=#link_8", "css:finder"],
+        ["xpath=//a[contains(text(),'Is it possible to create and use an Android executable file with Unity?')]", "xpath:link"],
+        ["xpath=//a[@id='link_8']", "xpath:attributes"],
+        ["xpath=//div[@id='grid']/table/tbody/tr/td[2]/div/div/div/div/h2/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/t5/Software-Archive/Is-it-possible-to-create-and-use-an-Android-executable-file-with/td-p/1233451')]", "xpath:href"],
+        ["xpath=//h2/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Is it possible to create and use an Android executable file with Unity?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c26f4831-4e10-45ca-8f3c-55eae542064e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Communities",
+      "targets": [
+        ["linkText=About Communities", "linkText"],
+        ["css=li:nth-child(3) > .top-level-link", "css:finder"],
+        ["xpath=//a[contains(text(),'About Communities')]", "xpath:link"],
+        ["xpath=//nav[@id='header-horizontal-nav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/t5/About-Communities/bd-p/about-communities')]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Communities')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a3c50e9-735d-4e84-8afd-ea591c20d48e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=About Communities",
+      "targets": [
+        ["linkText=About Communities", "linkText"],
+        ["css=li:nth-child(3) > .top-level-link", "css:finder"],
+        ["xpath=//a[contains(text(),'About Communities')]", "xpath:link"],
+        ["xpath=//nav[@id='header-horizontal-nav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/t5/About-Communities/bd-p/about-communities')])[17]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Communities')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0c22561-e19a-442b-bcdd-5e17cd7a196f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=About Communities",
+      "targets": [
+        ["linkText=About Communities", "linkText"],
+        ["css=li:nth-child(3) > .top-level-link", "css:finder"],
+        ["xpath=//a[contains(text(),'About Communities')]", "xpath:link"],
+        ["xpath=//nav[@id='header-horizontal-nav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/t5/About-Communities/bd-p/about-communities')])[17]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Communities')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "973da88b-add0-4c3b-86ae-129ac2ff4662",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Communities",
+      "targets": [
+        ["linkText=Communities", "linkText"],
+        ["css=.community-link > .top-level-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Communities')]", "xpath:link"],
+        ["xpath=//nav[@id='header-horizontal-nav']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[43]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Communities')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ba15431-ce85-46a9-b366-01e1ae245dd9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Communities",
+      "targets": [
+        ["linkText=Communities", "linkText"],
+        ["css=.community-link > .top-level-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Communities')]", "xpath:link"],
+        ["xpath=//nav[@id='header-horizontal-nav']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[165]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f32a5ae-de1d-4475-9322-c572b5f9905f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.lia-quilt-column-alley-inner .mobile-hidden img",
+      "targets": [
+        ["css=.lia-quilt-column-alley-inner .mobile-hidden img", "css:finder"],
+        ["xpath=//img[@alt='All Product Forums']", "xpath:img"],
+        ["xpath=//body[@id='lia-body']/div[2]/center/div[3]/div/div/div/div/div[2]/div[2]/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bde9b16-6b59-4dce-a193-87bd0998be19",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.lia-quilt-column-alley-inner .mobile-hidden img",
+      "targets": [
+        ["css=.lia-quilt-column-alley-inner .mobile-hidden img", "css:finder"],
+        ["xpath=//img[@alt='All Product Forums']", "xpath:img"],
+        ["xpath=//body[@id='lia-body']/div[2]/center/div[3]/div/div/div/div/div[2]/div[2]/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d6b16c1-6f34-4db3-9db3-14072e903cd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lia-quilt-column-alley-inner .mobile-hidden > h2",
+      "targets": [
+        ["css=.lia-quilt-column-alley-inner .mobile-hidden > h2", "css:finder"],
+        ["xpath=//body[@id='lia-body']/div[2]/center/div[3]/div/div/div/div/div[2]/div[2]/div/div/div[3]/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/h2", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f9b7414-5c85-4ab6-af6f-999b889f2675",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lia-quilt-column-alley-inner .mobile-hidden > ul",
+      "targets": [
+        ["css=.lia-quilt-column-alley-inner .mobile-hidden > ul", "css:finder"],
+        ["xpath=//body[@id='lia-body']/div[2]/center/div[3]/div/div/div/div/div[2]/div[2]/div/div/div[3]/ul", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9fa6a69-29e0-47e8-a6c6-34145fb2e83d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Graphics",
+      "targets": [
+        ["linkText=Graphics", "linkText"],
+        ["css=.lia-quilt-column-alley-inner .mobile-hidden li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Graphics')])[5]", "xpath:link"],
+        ["xpath=//body[@id='lia-body']/div[2]/center/div[3]/div/div/div/div/div[2]/div[2]/div/div/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/t5/Graphics/bd-p/graphics')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9aed943-59a0-4ccb-ae93-a908a96d9aee",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=link_8",
+      "targets": [
+        ["id=link_8", "id"],
+        ["linkText=Intel® Driver & Support Assistant (Intel® DSA) offering Intel® Arc drivers for integrated graphics", "linkText"],
+        ["css=#link_8", "css:finder"],
+        ["xpath=//a[contains(text(),'Intel® Driver & Support Assistant (Intel® DSA) offering Intel® Arc drivers for integrated graphics')]", "xpath:link"],
+        ["xpath=//a[@id='link_8']", "xpath:attributes"],
+        ["xpath=//div[@id='grid']/table/tbody/tr/td[2]/div/div/div/div/h2/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/t5/Graphics/Intel-Driver-amp-Support-Assistant-Intel-DSA-offering-Intel-Arc/td-p/1424078')]", "xpath:href"],
+        ["xpath=//h2/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intel® Driver & Support Assistant (Intel® DSA) offering Intel® Arc drivers for integrated graphics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "208904e7-714d-4c97-be4e-b05df7c7eceb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=link_8",
+      "targets": [
+        ["id=link_8", "id"],
+        ["linkText=Intel® Driver & Support Assistant (Intel® DSA) offering Intel® Arc drivers for integrated graphics", "linkText"],
+        ["css=#link_8", "css:finder"],
+        ["xpath=//a[contains(text(),'Intel® Driver & Support Assistant (Intel® DSA) offering Intel® Arc drivers for integrated graphics')]", "xpath:link"],
+        ["xpath=//a[@id='link_8']", "xpath:attributes"],
+        ["xpath=//div[@id='grid']/table/tbody/tr/td[2]/div/div/div/div/h2/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/t5/Graphics/Intel-Driver-amp-Support-Assistant-Intel-DSA-offering-Intel-Arc/td-p/1424078')]", "xpath:href"],
+        ["xpath=//h2/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intel® Driver & Support Assistant (Intel® DSA) offering Intel® Arc drivers for integrated graphics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8639a5d4-28f7-4037-9733-879f8131277f",
+      "comment": "",
+      "command": "click",
+      "target": "id=link_5",
+      "targets": [
+        ["id=link_5", "id"],
+        ["css=#link_5", "css:finder"],
+        ["xpath=(//a[contains(text(),'Product Support Forums')])[3]", "xpath:link"],
+        ["xpath=//a[@id='link_5']", "xpath:attributes"],
+        ["xpath=//ul[@id='list']/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/t5/Product-Support-Forums/ct-p/product-support-forums')])[3]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3a24ced-7348-4a68-9363-447722929ffc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Communities",
+      "targets": [
+        ["linkText=Communities", "linkText"],
+        ["css=.community-link > .top-level-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Communities')]", "xpath:link"],
+        ["xpath=//nav[@id='header-horizontal-nav']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[43]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Communities')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc9b30a8-b2c0-4185-b70d-4971f7403774",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Communities",
+      "targets": [
+        ["linkText=Communities", "linkText"],
+        ["css=.community-link > .top-level-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Communities')]", "xpath:link"],
+        ["xpath=//nav[@id='header-horizontal-nav']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[165]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af91d7d4-8005-4447-88d9-be71fe181d80",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.lia-quilt-column-alley-inner .mobile-hidden img",
+      "targets": [
+        ["css=.lia-quilt-column-alley-inner .mobile-hidden img", "css:finder"],
+        ["xpath=//img[@alt='All Product Forums']", "xpath:img"],
+        ["xpath=//body[@id='lia-body']/div[2]/center/div[3]/div/div/div/div/div[2]/div[2]/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11933332-e749-41fa-b388-f8c8abebeee6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.lia-quilt-column-alley-inner .mobile-hidden img",
+      "targets": [
+        ["css=.lia-quilt-column-alley-inner .mobile-hidden img", "css:finder"],
+        ["xpath=//img[@alt='All Product Forums']", "xpath:img"],
+        ["xpath=//body[@id='lia-body']/div[2]/center/div[3]/div/div/div/div/div[2]/div[2]/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d442ffc7-d7c3-40e4-b085-c35f28ff784a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gaming on Intel® Processors with Intel® Graphics",
+      "targets": [
+        ["linkText=Gaming on Intel® Processors with Intel® Graphics", "linkText"],
+        ["css=.gaming li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Gaming on Intel® Processors with Intel® Graphics')])[2]", "xpath:link"],
+        ["xpath=//body[@id='lia-body']/div[2]/center/div[3]/div/div/div/div/div[2]/div[3]/div/div/div[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/t5/Gaming-on-Intel-Processors-with/bd-p/processors-with-intel-graphics')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[3]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2a0403e-763b-4003-a798-f028ff8c39b2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Communities",
+      "targets": [
+        ["linkText=Communities", "linkText"],
+        ["css=.community-link > .top-level-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Communities')]", "xpath:link"],
+        ["xpath=//nav[@id='header-horizontal-nav']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[165]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c189faab-ddd1-49b6-805f-46ff978523d9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=We Are Intel",
+      "targets": [
+        ["linkText=We Are Intel", "linkText"],
+        ["css=.lia-quilt-column-alley-right li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'We Are Intel')]", "xpath:link"],
+        ["xpath=//body[@id='lia-body']/div[2]/center/div[3]/div/div/div/div/div[2]/div[4]/div/div/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/t5/Blogs/Intel/We-Are-Intel/bg-p/blog-weareintel')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'We Are Intel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fcd19fbf-5460-42b6-8d08-dc76c83be24f",
+    "name": "intel-download-center",
+    "commands": [{
+      "id": "aa5ca3a8-2b70-4df6-9a84-518bba4e63b1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a45d9a14-d762-4f84-a206-175b77d7c833",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23ed9447-a61b-4c18-9914-2c45cca6b595",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-6:nth-child(5) span",
+      "targets": [
+        ["css=.col-xs-6:nth-child(5) span", "css:finder"],
+        ["xpath=//div[@id='homePageResourcesBar-1']/section/div/div[2]/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//section/div/div[2]/ul/li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Download Center')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e49d3a9-834e-407c-8b20-2775164fe6f8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,16)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31ba7d0d-3fdc-48c3-86ca-c77052eac455",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Graphics",
+      "targets": [
+        ["linkText=Graphics", "linkText"],
+        ["css=.simple-card-item:nth-child(1) > .item-wrap", "css:finder"],
+        ["xpath=//div[@id='partner-simple-card-1']/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/search.html#q=&sort=relevancy&f:@tabfilter=[Downloads]&f:@stm_10385_en=[Graphics]')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85bba11b-0100-4e45-9fe9-95e7895e21f7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download",
+      "targets": [
+        ["linkText=Download", "linkText"],
+        ["css=.coveo-list-layout:nth-child(1) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Download')]", "xpath:link"],
+        ["xpath=//div[@id='coveo-result-list1']/div/div/div/div[3]/div/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://downloadmirror.intel.com/751359/gfx_win_101.3790_101.2114.exe')]", "xpath:href"],
+        ["xpath=//div/div[3]/div/div/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c15e71fc-793a-4e1b-92f8-f942b83e5c52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.coveo-dynamic-hierarchical-facet-values:nth-child(4) .coveo-selected > .coveo-dynamic-hierarchical-facet-value-count",
+      "targets": [
+        ["css=.coveo-dynamic-hierarchical-facet-values:nth-child(4) .coveo-selected > .coveo-dynamic-hierarchical-facet-value-count", "css:finder"],
+        ["xpath=//div[@id='downloadsppth']/ul/li[2]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[12]/ul/li[2]/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f144ab6a-211f-40a5-a7e7-dfdfdcb4cec6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.coveo-dynamic-facet-header-expand",
+      "targets": [
+        ["css=.coveo-dynamic-facet-header-expand", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//div[@id='downloadsppth']/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[12]/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a2a44e7-0bcd-4b3a-876d-a330a606f72b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.coveo-customized-viewmore:nth-child(13)",
+      "targets": [
+        ["css=.coveo-customized-viewmore:nth-child(13)", "css:finder"],
+        ["xpath=//button[@onclick='openViewMore(this)']", "xpath:attributes"],
+        ["xpath=//div[@id='downloadsppth']/ul/button", "xpath:idRelative"],
+        ["xpath=//ul/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "32494119-96d7-4cb9-905e-4af7e7c70c2f",
+    "name": "intel-download",
+    "commands": [{
+      "id": "e2147152-f898-4e40-9540-8fe924ff4130",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0652beaf-0494-44ce-a2f8-b91074dbc42e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0e545ec-dd07-4c63-b0db-60c4ccc0d1b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-mega-search > .fa-global-search",
+      "targets": [
+        ["css=.btn-mega-search > .fa-global-search", "css:finder"],
+        ["xpath=//form[@id='hpsform-new']/button/span[2]", "xpath:idRelative"],
+        ["xpath=//form/button/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca796384-4bf1-4857-a2cc-621040bf9b0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.magic-box-input > input",
+      "targets": [
+        ["css=.magic-box-input > input", "css:finder"],
+        ["xpath=(//input[@type='text'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='search']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[13]/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1651328-0e49-4671-b228-31864707363c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.magic-box-input > input",
+      "targets": [
+        ["css=.magic-box-input > input", "css:finder"],
+        ["xpath=(//input[@type='text'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='search']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[13]/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "softwares"
+    }, {
+      "id": "fa120c9a-0cf4-4e8e-91e1-9f75f0cd1552",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.magic-box-input > input",
+      "targets": [
+        ["css=.magic-box-input > input", "css:finder"],
+        ["xpath=(//input[@type='text'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='search']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[13]/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "14cc840e-2602-4940-be29-7968b7e44107",
+    "name": "intel-company-overview",
+    "commands": [{
+      "id": "13d4e553-e90b-4505-89ec-d242739eb027",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56436a3d-718b-427f-9ffd-91305ae74418",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05e8a076-239b-4390-9bf8-a0c7de12e619",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Company Overview",
+      "targets": [
+        ["linkText=Company Overview", "linkText"],
+        ["css=.footer-links:nth-child(1) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Company Overview')]", "xpath:link"],
+        ["xpath=//footer[@id='skip-footer']/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/company-overview/company-overview.html')]", "xpath:href"],
+        ["xpath=//footer/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Company Overview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20526c1d-2b96-47c0-9da4-1cbad365c14a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Purpose",
+      "targets": [
+        ["linkText=Our Purpose", "linkText"],
+        ["css=.overflower-item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Purpose')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#introtext_copy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Purpose')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4ef466d-20eb-40d3-ae1b-4ccef708ad77",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,44)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "040ddc6b-9b18-4ced-b75a-c0d90fed2252",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Beliefs",
+      "targets": [
+        ["linkText=Our Beliefs", "linkText"],
+        ["css=.overflower-item:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Beliefs')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#promotions_977356774')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Beliefs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9272548c-816d-450a-b37a-0e1867d6e228",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Strategy",
+      "targets": [
+        ["linkText=Our Strategy", "linkText"],
+        ["css=.overflower-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Strategy')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#introtext_copy_copy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Strategy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "870f9f77-fc9b-423d-a522-1dc2871e2883",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Scale",
+      "targets": [
+        ["linkText=Our Scale", "linkText"],
+        ["css=.overflower-item:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Scale')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#introtext_copy_copy_')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Scale')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aee3c877-31fd-4bcb-bc4a-9981c5f52f10",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3286)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57952c8a-af8b-4c10-a138-66bd36b9f70f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More About Intel",
+      "targets": [
+        ["linkText=More About Intel", "linkText"],
+        ["css=.overflower-item:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'More About Intel')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#chat_copy_copy_13729_1833061473')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More About Intel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "26433163-a642-447c-a328-83c0b45f7b9c",
+    "name": "intel-contactus",
+    "commands": [{
+      "id": "2a45fad2-3921-4744-8137-cf5bc9ab6943",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d64014f-21e0-4c0c-8d6c-0cc61357f962",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09403ee4-75ba-4364-b0d0-e8269da66e3f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact Intel",
+      "targets": [
+        ["linkText=Contact Intel", "linkText"],
+        ["css=.footer-links:nth-child(1) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Intel')]", "xpath:link"],
+        ["xpath=//footer[@id='skip-footer']/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/content/www/us/en/support/contact-intel.html')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact Intel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37acf1d4-a142-4eb6-a984-2b8f649804f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.resource:nth-child(1) .icon-label",
+      "targets": [
+        ["css=.resource:nth-child(1) .icon-label", "css:finder"],
+        ["xpath=//div[@id='contact-us']/div/section/div/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//section/div/div/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Support Community')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1155eaec-ee59-45ab-9b89-457c86624208",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.lia-quilt-column-alley-inner .mobile-hidden img",
+      "targets": [
+        ["css=.lia-quilt-column-alley-inner .mobile-hidden img", "css:finder"],
+        ["xpath=//img[@alt='All Product Forums']", "xpath:img"],
+        ["xpath=//body[@id='lia-body']/div[2]/center/div[3]/div/div/div/div/div[2]/div[2]/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e0ed108-8a4a-40b1-a599-fd425d1e560e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact Intel",
+      "targets": [
+        ["linkText=Contact Intel", "linkText"],
+        ["css=.footer-links:nth-child(1) > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Intel')]", "xpath:link"],
+        ["xpath=//footer[@id='skip-footer']/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.intel.com/content/www/us/en/support/contact-intel.html')])[3]", "xpath:href"],
+        ["xpath=//footer/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact Intel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff9619f3-e673-433c-aac8-3c816e2e055b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Support Community",
+      "targets": [
+        ["linkText=Support Community", "linkText"],
+        ["css=.resource:nth-child(1) > a", "css:finder"],
+        ["xpath=//div[@id='contact-us']/div/section/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://community.intel.com/')])[2]", "xpath:href"],
+        ["xpath=//section/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9544e2ae-89eb-43b6-9511-30a7cef6fdf4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Support Community",
+      "targets": [
+        ["linkText=Support Community", "linkText"],
+        ["css=.resource:nth-child(1) > a", "css:finder"],
+        ["xpath=//div[@id='contact-us']/div/section/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://community.intel.com/')])[2]", "xpath:href"],
+        ["xpath=//section/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b02f5ac-98d1-414e-9556-7d14c194ce1f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Campus Locations",
+      "targets": [
+        ["linkText=Campus Locations", "linkText"],
+        ["css=.scrolling-wrapper > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Campus Locations')]", "xpath:link"],
+        ["xpath=//div[@id='variant802en_us']/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div/div/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Campus Locations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd08d7c8-3622-496f-b419-d6cd700c5d32",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Campus Locations",
+      "targets": [
+        ["linkText=Campus Locations", "linkText"],
+        ["css=.scrolling-wrapper > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Campus Locations')]", "xpath:link"],
+        ["xpath=//div[@id='variant802en_us']/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div/div/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Campus Locations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f4cb5c4-9bee-4a65-b89f-b4c816d7732d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=How to Contact Us",
+      "targets": [
+        ["linkText=How to Contact Us", "linkText"],
+        ["css=.scrolling-wrapper:nth-child(3) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'How to Contact Us')]", "xpath:link"],
+        ["xpath=//div[@id='variant802en_us']/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//main/div/div/div/div/div/div/div/div/div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'How to Contact Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ddd4da2-c1d6-4cd3-b51c-83eb07996611",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=contact-us-accordion-link-1",
+      "targets": [
+        ["id=contact-us-accordion-link-1", "id"],
+        ["css=#contact-us-accordion-link-1", "css:finder"],
+        ["xpath=//button[@id='contact-us-accordion-link-1']", "xpath:attributes"],
+        ["xpath=//div[@id='contact-us-accordion-head-1']/h3/button", "xpath:idRelative"],
+        ["xpath=//h3/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3edcfe2b-dda6-473a-a562-aca93f1958ab",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=contact-us-accordion-link-1",
+      "targets": [
+        ["id=contact-us-accordion-link-1", "id"],
+        ["css=#contact-us-accordion-link-1", "css:finder"],
+        ["xpath=//button[@id='contact-us-accordion-link-1']", "xpath:attributes"],
+        ["xpath=//div[@id='contact-us-accordion-head-1']/h3/button", "xpath:idRelative"],
+        ["xpath=//h3/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72604903-8ffc-465c-aaa9-1ac496d9d83d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=contact-us-accordion-title-1",
+      "targets": [
+        ["id=contact-us-accordion-title-1", "id"],
+        ["css=#contact-us-accordion-title-1", "css:finder"],
+        ["xpath=//span[@id='contact-us-accordion-title-1']", "xpath:attributes"],
+        ["xpath=//button[@id='contact-us-accordion-link-1']/span[2]", "xpath:idRelative"],
+        ["xpath=//h3/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Support for Intel Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31be83da-fe22-4fd5-ad8b-651eeb3a7228",
+      "comment": "",
+      "command": "click",
+      "target": "id=contact-us-accordion-title-1",
+      "targets": [
+        ["id=contact-us-accordion-title-1", "id"],
+        ["css=#contact-us-accordion-title-1", "css:finder"],
+        ["xpath=//span[@id='contact-us-accordion-title-1']", "xpath:attributes"],
+        ["xpath=//button[@id='contact-us-accordion-link-1']/span[2]", "xpath:idRelative"],
+        ["xpath=//h3/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Support for Intel Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "427f2510-4f6e-453a-9a2b-2b3690ccfb65",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=contact-us-accordion-title-1",
+      "targets": [
+        ["id=contact-us-accordion-title-1", "id"],
+        ["css=#contact-us-accordion-title-1", "css:finder"],
+        ["xpath=//span[@id='contact-us-accordion-title-1']", "xpath:attributes"],
+        ["xpath=//button[@id='contact-us-accordion-link-1']/span[2]", "xpath:idRelative"],
+        ["xpath=//h3/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Support for Intel Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2bb2da3-6700-4de3-8f2c-e0760584d724",
+      "comment": "",
+      "command": "click",
+      "target": "id=chooser-button-78586",
+      "targets": [
+        ["id=chooser-button-78586", "id"],
+        ["css=#chooser-button-78586", "css:finder"],
+        ["xpath=//button[@id='chooser-button-78586']", "xpath:attributes"],
+        ["xpath=//div[@id='product-support-chooser']/div/nav/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//ul/li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Boards & Kits')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d7860a9-70f5-40af-8ebd-a09890aaba1f",
+      "comment": "",
+      "command": "click",
+      "target": "id=chooser-button-1125",
+      "targets": [
+        ["id=chooser-button-1125", "id"],
+        ["css=#chooser-button-1125", "css:finder"],
+        ["xpath=//button[@id='chooser-button-1125']", "xpath:attributes"],
+        ["xpath=//nav[@id='chooser-menu-78586']/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//nav[22]/ul/li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Desktop Boards')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "974ed068-3ee9-4f49-81ae-6f6819d97e80",
+      "comment": "",
+      "command": "click",
+      "target": "id=chooser-button-207799",
+      "targets": [
+        ["id=chooser-button-207799", "id"],
+        ["css=#chooser-button-207799", "css:finder"],
+        ["xpath=//button[@id='chooser-button-207799']", "xpath:attributes"],
+        ["xpath=//nav[@id='chooser-menu-78586']/ul/li[4]/button", "xpath:idRelative"],
+        ["xpath=//nav[22]/ul/li[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Intel® RealSense™ Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85adf15f-d5ea-47fe-be0c-948f8af98818",
+      "comment": "",
+      "command": "click",
+      "target": "id=chooser-button-194569",
+      "targets": [
+        ["id=chooser-button-194569", "id"],
+        ["css=#chooser-button-194569", "css:finder"],
+        ["xpath=//button[@id='chooser-button-194569']", "xpath:attributes"],
+        ["xpath=//nav[@id='chooser-menu-78586']/ul/li[5]/button", "xpath:idRelative"],
+        ["xpath=//nav[22]/ul/li[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Neural Compute Sticks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a90e691e-ea75-4676-aa63-af14dfb4ace2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#contact-us-accordion-link-2 > .title-text",
+      "targets": [
+        ["css=#contact-us-accordion-link-2 > .title-text", "css:finder"],
+        ["xpath=//button[@id='contact-us-accordion-link-2']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h3/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Support for Intel Programs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e2757d8-076c-416c-b8f1-3b704b62c8f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=chooser-button-91207",
+      "targets": [
+        ["id=chooser-button-91207", "id"],
+        ["css=#chooser-button-91207", "css:finder"],
+        ["xpath=//button[@id='chooser-button-91207']", "xpath:attributes"],
+        ["xpath=//div[@id='programs-support-chooser']/div/nav/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/nav/ul/li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Developer Zone')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02d1ac02-bf52-47a7-be5b-ff23ce552c24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.feedback-title",
+      "targets": [
+        ["css=.feedback-title", "css:finder"],
+        ["xpath=//div[@id='feedback-1']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/section/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d8d810f-fb6f-45f6-b78b-4f4f183d3e85",
+      "comment": "",
+      "command": "click",
+      "target": "css=#contact-us-accordion-link-3 > .title-text",
+      "targets": [
+        ["css=#contact-us-accordion-link-3 > .title-text", "css:finder"],
+        ["xpath=//button[@id='contact-us-accordion-link-3']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/h3/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'More Ways to Contact Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "37452730-d800-45c0-b9be-cddfbd4bc016",
+    "name": "intel-newsroom",
+    "commands": [{
+      "id": "0c3ba4c1-4c49-47ae-b028-7fdfaeea9821",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dde4b92b-27ec-4785-8661-a9a2f5a9dea2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e29ec518-d788-4c70-b720-796d90f9aea8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,593.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1e23697-121c-4db8-9c47-9889eed2f600",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Newsroom",
+      "targets": [
+        ["linkText=Newsroom", "linkText"],
+        ["css=.footer-links:nth-child(1) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Newsroom')]", "xpath:link"],
+        ["xpath=//footer[@id='skip-footer']/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/newsroom/home.html')]", "xpath:href"],
+        ["xpath=//footer/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Newsroom')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31e5bd54-8ce8-48a0-910e-39c641449de7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=.goto-component li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'News')])[3]", "xpath:link"],
+        ["xpath=//div[@id='navigationTemplate-1']/div[3]/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/content/www/us/en/newsroom/news-stories.html')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "797b479b-d259-4a72-aec8-4fad9c8c7364",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,149.3333282470703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3475414-bfd2-4294-af6d-03c5ae02d18f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Newsroom",
+      "targets": [
+        ["linkText=Newsroom", "linkText"],
+        ["css=.footer-links:nth-child(1) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Newsroom')])[3]", "xpath:link"],
+        ["xpath=//footer[@id='skip-footer']/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/content/www/us/en/newsroom/home.html')])[2]", "xpath:href"],
+        ["xpath=//footer/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9439821e-fd61-4e49-b22b-66f46304847e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.promo-block:nth-child(1) .headline",
+      "targets": [
+        ["css=.promo-block:nth-child(1) .headline", "css:finder"],
+        ["xpath=//div[@id='marketingblock-1']/section/div/div/div/div/a/div/h2", "xpath:idRelative"],
+        ["xpath=//a/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Intel Leads Industry with Next-Gen Thunderbolt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "687e1816-ac29-4a89-bace-2bf88ac82d5f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.promo-block:nth-child(1) .headline",
+      "targets": [
+        ["css=.promo-block:nth-child(1) .headline", "css:finder"],
+        ["xpath=//div[@id='marketingblock-1']/section/div/div/div/div/a/div/h2", "xpath:idRelative"],
+        ["xpath=//a/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Intel Leads Industry with Next-Gen Thunderbolt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41f869b2-9551-4a6a-8e09-b31725c9156a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Press Kits",
+      "targets": [
+        ["linkText=Press Kits", "linkText"],
+        ["css=.goto-component li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Press Kits')]", "xpath:link"],
+        ["xpath=//div[@id='navigationTemplate-1']/div[3]/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/content/www/us/en/newsroom/resource.html')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "040aaf85-d5bc-4b13-9645-de78069cd424",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Press Kits",
+      "targets": [
+        ["linkText=Press Kits", "linkText"],
+        ["css=.goto-component li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Press Kits')]", "xpath:link"],
+        ["xpath=//div[@id='navigationTemplate-1']/div[3]/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/content/www/us/en/newsroom/resource.html')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c95e158e-718c-43b3-86b6-1070e01f75d1",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "linkText=Press Kits",
+      "targets": [
+        ["linkText=Press Kits", "linkText"],
+        ["css=.goto-component li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Press Kits')]", "xpath:link"],
+        ["xpath=//div[@id='navigationTemplate-1']/div[3]/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/content/www/us/en/newsroom/resource.html')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "242d9eef-b003-4d76-9e4c-18ae3bc0084c",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.marquee-background",
+      "targets": [
+        ["css=.marquee-background", "css:finder"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dba5efb-9a84-4f9a-b7db-9909804ee83f",
+      "comment": "",
+      "command": "click",
+      "target": "id=navigationTemplate-1",
+      "targets": [
+        ["id=navigationTemplate-1", "id"],
+        ["css=#navigationTemplate-1", "css:finder"],
+        ["xpath=//div[@id='navigationTemplate-1']", "xpath:attributes"],
+        ["xpath=//main[@id='primary-content']/div", "xpath:idRelative"],
+        ["xpath=//main/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7430d1e7-170f-4083-8a5d-a888bcfa4eec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News by Topic",
+      "targets": [
+        ["linkText=News by Topic", "linkText"],
+        ["css=.goto-component li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'News by Topic')]", "xpath:link"],
+        ["xpath=//div[@id='navigationTemplate-1']/div[3]/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/content/www/us/en/newsroom/categories.html')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e4766eb-fd70-4dd3-90d0-24c72d872067",
+      "comment": "",
+      "command": "click",
+      "target": "css=.goto-component",
+      "targets": [
+        ["css=.goto-component", "css:finder"],
+        ["xpath=//div[@id='navigationTemplate-1']/div[3]/nav", "xpath:idRelative"],
+        ["xpath=//div[3]/nav", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ff59324-5374-40f1-823d-f75c523906ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Executive Bios",
+      "targets": [
+        ["linkText=Executive Bios", "linkText"],
+        ["css=.goto-component li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Executive Bios')]", "xpath:link"],
+        ["xpath=//div[@id='navigationTemplate-1']/div[3]/nav/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/content/www/us/en/newsroom/biography.html')])[2]", "xpath:href"],
+        ["xpath=//nav/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81e3e19d-bd0a-41ff-a7af-b21da9167488",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.promo-block:nth-child(2) > .text-container",
+      "targets": [
+        ["css=.promo-block:nth-child(2) > .text-container", "css:finder"],
+        ["xpath=//div[@id='marketingblock-1']/section/div/div/div/div/a[2]/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31d40e3a-ca4d-4195-a203-4c8305f9c90f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.promo-block:nth-child(2) > .text-container",
+      "targets": [
+        ["css=.promo-block:nth-child(2) > .text-container", "css:finder"],
+        ["xpath=//div[@id='marketingblock-1']/section/div/div/div/div/a[2]/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89c48332-31cc-406f-a07f-e249fe17ef2e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Intel Logo & Media Tools",
+      "targets": [
+        ["linkText=Intel Logo & Media Tools", "linkText"],
+        ["css=.goto-component li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Intel Logo & Media Tools')]", "xpath:link"],
+        ["xpath=//div[@id='navigationTemplate-1']/div[3]/nav/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/newsroom/resources/press-kits-intel-overview.html')]", "xpath:href"],
+        ["xpath=//nav/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intel Logo & Media Tools')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b2b8191-12fe-4d78-93b8-38155cc4abb0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Intel Logo & Media Tools",
+      "targets": [
+        ["linkText=Intel Logo & Media Tools", "linkText"],
+        ["css=.goto-component li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Intel Logo & Media Tools')]", "xpath:link"],
+        ["xpath=//div[@id='navigationTemplate-1']/div[3]/nav/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/newsroom/resources/press-kits-intel-overview.html')]", "xpath:href"],
+        ["xpath=//nav/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intel Logo & Media Tools')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e9bbd4a-2e71-4697-9eb4-13bfb418d5cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.marquee-layout",
+      "targets": [
+        ["css=.marquee-layout", "css:finder"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb791548-09ca-428d-a4cc-15e967505f40",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Intel Logo & Media Tools",
+      "targets": [
+        ["linkText=Intel Logo & Media Tools", "linkText"],
+        ["css=.goto-component li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Intel Logo & Media Tools')]", "xpath:link"],
+        ["xpath=//div[@id='navigationTemplate-1']/div[3]/nav/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/newsroom/resources/press-kits-intel-overview.html')]", "xpath:href"],
+        ["xpath=//nav/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Intel Logo & Media Tools')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e22baa25-f62e-44ad-a27d-8013f3badbad",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,17.33333396911621)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1a03618a-5476-48f4-8f9a-5e28cbb29e3f",
+    "name": "Intel",
+    "commands": []
+  }, {
+    "id": "871427c8-018a-412f-97b9-30a44430a814",
+    "name": "intel-investors",
+    "commands": [{
+      "id": "248df7a1-0387-406a-b968-9d96283246eb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "444ab01f-24d4-4cf8-933b-614af10c13cc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd0fb19c-e3b3-4e11-b738-aa1d38641379",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Investors",
+      "targets": [
+        ["linkText=Investors", "linkText"],
+        ["css=.footer-links:nth-child(1) > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Investors')]", "xpath:link"],
+        ["xpath=//footer[@id='skip-footer']/div/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.intc.com/')]", "xpath:href"],
+        ["xpath=//footer/div/div/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Investors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "686c371d-a65c-461d-916c-a40bc387a55a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About Intel",
+      "targets": [
+        ["linkText=About Intel", "linkText"],
+        ["css=.has-children:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'About Intel')]", "xpath:link"],
+        ["xpath=//nav[@id='mobile-nav']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about-intel')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About Intel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c0a6513-c422-40e0-895e-defa53533fbb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Management Team",
+      "targets": [
+        ["linkText=Management Team", "linkText"],
+        ["css=#submenu-about-intel > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Management Team')]", "xpath:link"],
+        ["xpath=//ul[@id='submenu-about-intel']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about-intel/management-team')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Management Team')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abbd9195-7854-41fb-a59e-7fdfe9fc45bb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contacts",
+      "targets": [
+        ["linkText=Contacts", "linkText"],
+        ["css=#submenu-about-intel > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contacts')]", "xpath:link"],
+        ["xpath=//ul[@id='submenu-about-intel']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about-intel/contacts')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contacts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eea4f563-3209-4366-bb80-94a5b640d87d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Strategic Priorities",
+      "targets": [
+        ["linkText=Strategic Priorities", "linkText"],
+        ["css=.main-menu > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Strategic Priorities')]", "xpath:link"],
+        ["xpath=//nav[@id='mobile-nav']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/strategic-priorities')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Strategic Priorities')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92d47205-4d69-4bff-8b11-327a9d6ddb32",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "linkText=Accelerating Our Growth",
+      "targets": [
+        ["linkText=Accelerating Our Growth", "linkText"],
+        ["css=.smooth:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Accelerating Our Growth')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#row-7666')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Accelerating Our Growth')]", "xpath:innerText"]
+      ],
+      "value": "89.33332824707031,20.1875"
+    }, {
+      "id": "f1eb3fb5-4957-4b09-b8f5-e22d9d2c1c9d",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "linkText=Accelerating Our Growth",
+      "targets": [
+        ["linkText=Accelerating Our Growth", "linkText"],
+        ["css=.smooth:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Accelerating Our Growth')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#row-7666')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Accelerating Our Growth')]", "xpath:innerText"]
+      ],
+      "value": "89.33332824707031,20.1875"
+    }, {
+      "id": "f4efdf07-88d4-435a-bfe5-b40cd7d5774a",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "linkText=Accelerating Our Growth",
+      "targets": [
+        ["linkText=Accelerating Our Growth", "linkText"],
+        ["css=.smooth:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Accelerating Our Growth')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#row-7666')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Accelerating Our Growth')]", "xpath:innerText"]
+      ],
+      "value": "89.33332824707031,20.1875"
+    }, {
+      "id": "903af741-8911-4868-9021-9f0071f78d6a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Accelerating Our Growth",
+      "targets": [
+        ["linkText=Accelerating Our Growth", "linkText"],
+        ["css=.smooth:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Accelerating Our Growth')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#row-7666')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Accelerating Our Growth')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abecc55c-fd54-4da5-9b31-0df59369e742",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Improving Our Execution",
+      "targets": [
+        ["linkText=Improving Our Execution", "linkText"],
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Improving Our Execution')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#row-7667')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Improving Our Execution')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "440a8578-e219-4a9b-add0-bf6e619ce705",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Segments",
+      "targets": [
+        ["linkText=Segments", "linkText"],
+        ["css=.main-menu > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Segments')]", "xpath:link"],
+        ["xpath=//nav[@id='mobile-nav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/segments')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Segments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e07c965-105f-41f4-baa3-52ef1d3de67f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News & Events",
+      "targets": [
+        ["linkText=News & Events", "linkText"],
+        ["css=.has-children:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'News & Events')]", "xpath:link"],
+        ["xpath=//nav[@id='mobile-nav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/news-events')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News & Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2d8865e-a502-4ae9-b518-c62c18865f08",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=News & Events",
+      "targets": [
+        ["linkText=News & Events", "linkText"],
+        ["css=.has-children:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'News & Events')]", "xpath:link"],
+        ["xpath=//nav[@id='mobile-nav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/news-events')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News & Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f4aa8dc-5373-401c-8c7d-65a39cdb5f27",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=News & Events",
+      "targets": [
+        ["linkText=News & Events", "linkText"],
+        ["css=.has-children:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'News & Events')]", "xpath:link"],
+        ["xpath=//nav[@id='mobile-nav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/news-events')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News & Events')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4efb54ad-0338-4c40-a21c-2640b47f3621",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Financial Info",
+      "targets": [
+        ["linkText=Financial Info", "linkText"],
+        ["css=.has-children:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Financial Info')]", "xpath:link"],
+        ["xpath=//nav[@id='mobile-nav']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/financial-info')]", "xpath:href"],
+        ["xpath=//nav/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Financial Info')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e00be443-aec8-4096-8356-27a6d52c31d3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Stock Info",
+      "targets": [
+        ["linkText=Stock Info", "linkText"],
+        ["css=.has-children:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Stock Info')]", "xpath:link"],
+        ["xpath=//nav[@id='mobile-nav']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/stock-info')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Stock Info')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a69a696-b36f-46d9-8bd7-cd00f72442fa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Filings & Reports",
+      "targets": [
+        ["linkText=Filings & Reports", "linkText"],
+        ["css=.has-children:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Filings & Reports')]", "xpath:link"],
+        ["xpath=//nav[@id='mobile-nav']/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/filings-reports')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Filings & Reports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4810d1db-3aa0-4a02-a729-ea58a7c81b07",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Board & Governance",
+      "targets": [
+        ["linkText=Board & Governance", "linkText"],
+        ["css=.has-children:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Board & Governance')]", "xpath:link"],
+        ["xpath=//nav[@id='mobile-nav']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/board-and-governance')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Board & Governance')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "571619ee-60de-410d-84ea-af866dc48104",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ESG",
+      "targets": [
+        ["linkText=ESG", "linkText"],
+        ["css=li:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ESG')]", "xpath:link"],
+        ["xpath=//nav[@id='mobile-nav']/ul/li[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/esg')]", "xpath:href"],
+        ["xpath=//li[11]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ESG')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2697b1e1-d281-49cb-9037-abf8d091d200",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Board & Governance",
+      "targets": [
+        ["linkText=Board & Governance", "linkText"],
+        ["css=.has-children:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Board & Governance')]", "xpath:link"],
+        ["xpath=//nav[@id='mobile-nav']/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/board-and-governance')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Board & Governance')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b433772-3321-4356-916c-d934a4c0e2a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Board of Directors",
+      "targets": [
+        ["linkText=Board of Directors", "linkText"],
+        ["css=#sub-navigation li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Board of Directors')])[2]", "xpath:link"],
+        ["xpath=//nav[@id='sub-navigation']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/board-and-governance/board-of-directors')])[2]", "xpath:href"],
+        ["xpath=//div/div/nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f173a29-f826-46d4-ba7d-eb493ccfc6b3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Board Committees",
+      "targets": [
+        ["linkText=Board Committees", "linkText"],
+        ["css=#sub-navigation li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Board Committees')])[2]", "xpath:link"],
+        ["xpath=//nav[@id='sub-navigation']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/board-and-governance/board-committees')])[2]", "xpath:href"],
+        ["xpath=//div/div/nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b54a0ae7-4c87-4c08-9e0b-b4069a14e1bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Governance Documents",
+      "targets": [
+        ["linkText=Governance Documents", "linkText"],
+        ["css=#sub-navigation li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Governance Documents')])[2]", "xpath:link"],
+        ["xpath=//nav[@id='sub-navigation']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/board-and-governance/governance-documents')])[2]", "xpath:href"],
+        ["xpath=//div/div/nav/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c0a6ee5-0c03-4b15-903e-c9882cae31ed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Engagement & Outreach",
+      "targets": [
+        ["linkText=Engagement & Outreach", "linkText"],
+        ["css=#sub-navigation li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Engagement & Outreach')])[2]", "xpath:link"],
+        ["xpath=//nav[@id='sub-navigation']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/board-and-governance/engagement-outreach')])[2]", "xpath:href"],
+        ["xpath=//div/div/nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8ea9f29-60d0-4296-880c-59d9f5c9ca9d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact the Board",
+      "targets": [
+        ["linkText=Contact the Board", "linkText"],
+        ["css=#sub-navigation li:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Contact the Board')])[2]", "xpath:link"],
+        ["xpath=//nav[@id='sub-navigation']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/board-and-governance/contact-the-board')])[2]", "xpath:href"],
+        ["xpath=//div/div/nav/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "959641c1-34a4-4cb5-8e4f-74328f8150db",
+    "name": "intel-careers",
+    "commands": [{
+      "id": "2c0ba32e-20b7-46bf-9800-4d52231c42b1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59f2eaea-3193-4474-8fd4-e14e27bf6492",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc0d55c4-a05d-424c-8b04-87bfe3374168",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Careers",
+      "targets": [
+        ["linkText=Careers", "linkText"],
+        ["css=.footer-links:nth-child(1) > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Careers')]", "xpath:link"],
+        ["xpath=//footer[@id='skip-footer']/div/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/jobs/jobs-at-intel.html')]", "xpath:href"],
+        ["xpath=//footer/div/div/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Careers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d445de8b-18f3-44a4-962c-33239ed129a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.marquee-background",
+      "targets": [
+        ["css=.marquee-background", "css:finder"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a8234f2-5c6f-4424-b7a1-ce2e2769f35e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Find Your Role",
+      "targets": [
+        ["linkText=Find Your Role", "linkText"],
+        ["css=.overflower-item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Find Your Role')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#promotions_copy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Find Your Role')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "73128bc5-673a-4b20-9ae7-89745d04ec94",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get to Know Us",
+      "targets": [
+        ["linkText=Get to Know Us", "linkText"],
+        ["css=.overflower-item:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Get to Know Us')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#introtext_copy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get to Know Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b1c485c-197f-426d-a38a-c56c56bb8067",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Diversity and Inclusion",
+      "targets": [
+        ["linkText=Diversity and Inclusion", "linkText"],
+        ["css=.overflower-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Diversity and Inclusion')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#multiasset_copy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Diversity and Inclusion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80e52393-82f7-4616-8d57-5b42246faaa8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1320.6666259765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6957b1cb-2db9-49d7-aca4-b012b3939824",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Guidance",
+      "targets": [
+        ["linkText=Guidance", "linkText"],
+        ["css=.overflower-item:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Guidance')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#multiasset_124833826')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Guidance')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8c9a6f5-edeb-4c0b-b651-d184e4edcf0d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Locations",
+      "targets": [
+        ["linkText=Locations", "linkText"],
+        ["css=.overflower-item:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Locations')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#introtext_1353006132')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Locations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c1d5712-4cde-41c1-a3f6-0bb5cea53e68",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Americas",
+      "targets": [
+        ["linkText=Americas", "linkText"],
+        ["css=#list-americas-2 > .intel-ws-ignore", "css:finder"],
+        ["xpath=//a[contains(text(),'Americas')]", "xpath:link"],
+        ["xpath=//li[@id='list-americas-2']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#americas-2')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Americas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38bc993d-2289-418e-9355-1d02ab7d66f4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Europe / Middle East",
+      "targets": [
+        ["linkText=Europe / Middle East", "linkText"],
+        ["css=#list-europemiddleeast-3 > .intel-ws-ignore", "css:finder"],
+        ["xpath=//a[contains(text(),'Europe / Middle East')]", "xpath:link"],
+        ["xpath=//li[@id='list-europemiddleeast-3']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#europemiddleeast-3')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Europe / Middle East')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8611d85-78e4-4498-9950-4fa065f23a5e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Asia",
+      "targets": [
+        ["linkText=Asia", "linkText"],
+        ["css=#list-asia-4 > .intel-ws-ignore", "css:finder"],
+        ["xpath=(//a[contains(text(),'Asia')])[2]", "xpath:link"],
+        ["xpath=//li[@id='list-asia-4']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#asia-4')]", "xpath:href"],
+        ["xpath=//div[7]/div/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "19e37370-2b40-4c61-8ae2-39b6b196893a",
+    "name": "intel-corporate-responsibility",
+    "commands": [{
+      "id": "310af68b-6b4b-4f31-ac32-aaf35be221ef",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf653c9a-5922-45c7-a65f-34d5960b67d0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bae1f5c-1964-445b-8626-f13046c07cd3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=span:nth-child(5) > img",
+      "targets": [
+        ["css=span:nth-child(5) > img", "css:finder"],
+        ["xpath=//img[@alt='Rpl dotcom']", "xpath:img"],
+        ["xpath=//div[@id='homepageHero-1']/div/div[2]/div/div[2]/div/span/a/span[5]/img", "xpath:idRelative"],
+        ["xpath=//span[5]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "865ba58c-3bf9-4b75-ac49-200305532736",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=span:nth-child(5) > img",
+      "targets": [
+        ["css=span:nth-child(5) > img", "css:finder"],
+        ["xpath=//img[@alt='Rpl dotcom']", "xpath:img"],
+        ["xpath=//div[@id='homepageHero-1']/div/div[2]/div/div[2]/div/span/a/span[5]/img", "xpath:idRelative"],
+        ["xpath=//span[5]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0ace60d-555c-448c-949c-0e256fc00766",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Corporate Responsibility",
+      "targets": [
+        ["linkText=Corporate Responsibility", "linkText"],
+        ["css=.footer-links:nth-child(1) > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Corporate Responsibility')]", "xpath:link"],
+        ["xpath=//footer[@id='skip-footer']/div/div/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/corporate-responsibility/corporate-responsibility.html')]", "xpath:href"],
+        ["xpath=//footer/div/div/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Corporate Responsibility')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af24fc9d-f0a9-4744-9edb-a417664d58eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.promo-block:nth-child(1) .btn",
+      "targets": [
+        ["css=.promo-block:nth-child(1) .btn", "css:finder"],
+        ["xpath=//div[@id='marketingblock-1']/section/div/div/div/div/a/div/p[2]", "xpath:idRelative"],
+        ["xpath=//a/div/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Learn about our 2030 RISE strategy and goals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "162678bd-56a6-4108-ac27-875336e342c1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9.333333015441895)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0313abbe-4fb1-4354-990e-a67615b6915b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,759.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4d26719-b63a-4799-bedb-58b2644efd32",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1840)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "914bb820-752b-4fa5-9a86-671754a22363",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=$25 Million in Fees Remediated",
+      "targets": [
+        ["linkText=$25 Million in Fees Remediated", "linkText"],
+        ["css=#promo-main-heading-1 > .blade-item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'$25 Million in Fees Remediated')]", "xpath:link"],
+        ["xpath=//h3[@id='promo-main-heading-1']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://csrreportbuilder.intel.com/pdfbuilder/pdfs/CSR-2021-22-Full-Report.pdf#page=29')])[2]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'$25 Million in Fees Remediated')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "834da98b-6a2f-4857-b2a1-f903b6d9181a",
+    "name": "intel-diversity-inclusion",
+    "commands": [{
+      "id": "94dfff44-5a9b-4003-af2d-f89a75f522c0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf8224a1-47ea-4dd8-8b8a-947389de3801",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9080f063-940b-4f8b-8185-8f4781e0e2a9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,295.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a3c0d49-1d3c-4779-8ec6-e3a60bb9dd3a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Diversity & Inclusion",
+      "targets": [
+        ["linkText=Diversity & Inclusion", "linkText"],
+        ["css=.footer-links:nth-child(1) > li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Diversity & Inclusion')]", "xpath:link"],
+        ["xpath=//footer[@id='skip-footer']/div/div/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/diversity/diversity-at-intel.html')]", "xpath:href"],
+        ["xpath=//footer/div/div/div/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Diversity & Inclusion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b2d431c-6960-4f68-bdbe-fa8615d06106",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Our Approach",
+      "targets": [
+        ["linkText=Our Approach", "linkText"],
+        ["css=.overflower-item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Approach')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#introtext')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Approach')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7eb673b-6c77-4aec-a75c-e52e27319876",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Approach",
+      "targets": [
+        ["linkText=Our Approach", "linkText"],
+        ["css=.overflower-item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Approach')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#introtext')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Approach')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b12cbaf-40ce-4b25-8411-d52b4864bd7e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Our Approach",
+      "targets": [
+        ["linkText=Our Approach", "linkText"],
+        ["css=.overflower-item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Approach')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#introtext')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Approach')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "992b45aa-73df-4034-960e-d164f970ce86",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,244.6666717529297)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96881001-2687-4cf2-bc31-f1d96ffdce33",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Stories",
+      "targets": [
+        ["linkText=Our Stories", "linkText"],
+        ["css=.overflower-item:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Stories')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#introtext_copy_81984_60585486')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Stories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6aed28a0-db10-4007-8fa4-b40a302cef08",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Report",
+      "targets": [
+        ["linkText=Our Report", "linkText"],
+        ["css=.overflower-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Report')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#multiasset_copy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Report')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17231178-cf23-4bfa-a6cd-bf56597e7f5b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2432)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "174bb800-edeb-4cf0-afd0-d24a152a2411",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Resources",
+      "targets": [
+        ["linkText=Resources", "linkText"],
+        ["css=.overflower-item:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Resources')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#promotions_acfd_copy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96b9d1ae-eca5-41ce-be36-7ff118e198ed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Job Openings",
+      "targets": [
+        ["linkText=Job Openings", "linkText"],
+        ["css=.overflower-item:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Job Openings')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#selectedcontent_copy_1713812044')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Job Openings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4fba8761-e52f-4994-8fcc-1f5829bd7a0d",
+    "name": "intel-public-policy",
+    "commands": [{
+      "id": "eb18d334-3bcb-4ffa-9e39-33b09fb81ec2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.intel.com/content/www/us/en/homepage.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74dedc48-43fa-4dd7-8771-cd59b8716fba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1494x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff7ce114-13e4-438a-9edf-4fbf3583fa8a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=span:nth-child(5) > img",
+      "targets": [
+        ["css=span:nth-child(5) > img", "css:finder"],
+        ["xpath=//img[@alt='Rpl dotcom']", "xpath:img"],
+        ["xpath=//div[@id='homepageHero-1']/div/div[2]/div/div[2]/div/span/a/span[5]/img", "xpath:idRelative"],
+        ["xpath=//span[5]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4b405e9-ad8e-490c-b1b7-0b929b3253a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Public Policy",
+      "targets": [
+        ["linkText=Public Policy", "linkText"],
+        ["css=.footer-links:nth-child(1) > li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Public Policy')]", "xpath:link"],
+        ["xpath=//footer[@id='skip-footer']/div/div/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/company-overview/public-policy.html')]", "xpath:href"],
+        ["xpath=//footer/div/div/div/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Public Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e37286e8-2608-48f0-8c20-06ce8f3fe1c4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=In the News",
+      "targets": [
+        ["linkText=In the News", "linkText"],
+        ["css=.overflower-item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'In the News')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#introtext_1251670646')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'In the News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dc9b800-eeed-468f-8fc8-8392e505ee68",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,84)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "677057f7-61df-452e-a6f6-ed688ad1b428",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tech Policy Blog Spotlight",
+      "targets": [
+        ["linkText=Tech Policy Blog Spotlight", "linkText"],
+        ["css=.overflower-item:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tech Policy Blog Spotlight')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#chat_copy_copy_copy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tech Policy Blog Spotlight')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d31f6e5-9920-493e-9430-54f36b571a47",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,876.6666870117188)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "adbd7492-1a33-44a5-86df-fb544ac5f6fb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Public Policy Details",
+      "targets": [
+        ["linkText=Public Policy Details", "linkText"],
+        ["css=.overflower-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Public Policy Details')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accent_copy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Public Policy Details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "586eb9c0-eac0-4d0f-a293-bb08ca76fb53",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Automotive and Transportation Policy",
+      "targets": [
+        ["linkText=Automotive and Transportation Policy", "linkText"],
+        ["css=.blade-item:nth-child(1) .blade-item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Automotive and Transportation Policy')]", "xpath:link"],
+        ["xpath=//section[@id='accent_copy']/div/div/div/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/policy/policy-automotive-and-transportation.html')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Automotive and Transportation Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af5f42f7-0a37-4869-a7de-48db2364ddd1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Public Policy",
+      "targets": [
+        ["linkText=Public Policy", "linkText"],
+        ["css=.footer-links:nth-child(1) > li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Public Policy')]", "xpath:link"],
+        ["xpath=//footer[@id='skip-footer']/div/div/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/company-overview/public-policy.html')]", "xpath:href"],
+        ["xpath=//footer/div/div/div/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Public Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "277c4648-1c1b-4ca7-9cf8-7268499b8c4d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Public Policy Details",
+      "targets": [
+        ["linkText=Public Policy Details", "linkText"],
+        ["css=.overflower-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Public Policy Details')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accent_copy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Public Policy Details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d92bef8-d19e-47d7-b5f7-59f16aa124c1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Digital Health Policy",
+      "targets": [
+        ["linkText=Digital Health Policy", "linkText"],
+        ["css=.blade-item:nth-child(2) .blade-item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Digital Health Policy')]", "xpath:link"],
+        ["xpath=//section[@id='accent_copy']/div/div/div[2]/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/policy/policy-health-it.html')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Digital Health Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47ca5a8e-5f59-4368-bfa2-c8a0028c7ba1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Public Policy",
+      "targets": [
+        ["linkText=Public Policy", "linkText"],
+        ["css=.footer-links:nth-child(1) > li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Public Policy')]", "xpath:link"],
+        ["xpath=//footer[@id='skip-footer']/div/div/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/company-overview/public-policy.html')]", "xpath:href"],
+        ["xpath=//footer/div/div/div/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Public Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76d1a8db-ff46-40b7-98e0-73825d2e8520",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Public Policy Details",
+      "targets": [
+        ["linkText=Public Policy Details", "linkText"],
+        ["css=.overflower-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Public Policy Details')]", "xpath:link"],
+        ["xpath=//div[@id='navigationpageoverview-1']/div[2]/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accent_copy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Public Policy Details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "935d8b92-d067-4667-9df3-470b77a51882",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Digital Trade Policy",
+      "targets": [
+        ["linkText=Digital Trade Policy", "linkText"],
+        ["css=.blade-item:nth-child(4) .blade-item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Digital Trade Policy')]", "xpath:link"],
+        ["xpath=//section[@id='accent_copy']/div/div/div[4]/div[2]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/www/us/en/policy/policy-digital-trade.html')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Digital Trade Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d11de8ba-21d0-4c57-b7d0-e0e81e8bd3ea",
+    "name": "intel",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "bc3f6409-6f8f-49d7-8cd9-d0095305168a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fbbe5faa-5d55-4acd-93cc-64851b9ea07a"]
+  }],
+  "urls": ["https://www.intel.com/content/www/us/en/homepage.html"],
+  "plugins": []
+}

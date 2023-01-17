@@ -1,0 +1,3249 @@
+{
+  "id": "92d0b9bd-5e4d-4074-864d-88a056cd336c",
+  "version": "2.0",
+  "name": "moz",
+  "url": "https://moz.com",
+  "tests": [{
+    "id": "a0b77168-b5d0-4578-aaac-b4de4c993a00",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "4046b480-b648-40bb-963f-c0c49aa41ce3",
+    "name": "moz-home",
+    "commands": [{
+      "id": "abd7f4cf-5889-48ff-90fb-747b8b65e68c",
+      "comment": "",
+      "command": "open",
+      "target": "/domain-analysis/apple.com",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3e8f7be-0b95-4f00-b254-8d098329953f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x866",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44338d7e-a4e0-41a5-9f61-6b928274bcbe",
+      "comment": "",
+      "command": "click",
+      "target": "id=mzr-navbarDropdown-1025230",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025230", "id"],
+        ["linkText=Products", "linkText"],
+        ["css=#mzr-navbarDropdown-1025230", "css:finder"],
+        ["xpath=(//a[contains(text(),'Products')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025230']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e43dace9-e4f2-43c0-8fde-36fc792d4c29",
+      "comment": "",
+      "command": "click",
+      "target": "id=mzr-navbarDropdown-1025230",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025230", "id"],
+        ["linkText=Products", "linkText"],
+        ["css=#mzr-navbarDropdown-1025230", "css:finder"],
+        ["xpath=(//a[contains(text(),'Products')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025230']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "903a60ca-13e7-4e31-afb8-6706f8bf1cc7",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=mzr-navbarDropdown-1025230",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025230", "id"],
+        ["linkText=Products", "linkText"],
+        ["css=#mzr-navbarDropdown-1025230", "css:finder"],
+        ["xpath=(//a[contains(text(),'Products')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025230']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc6fadc4-67b7-44b8-b861-9514424e816b",
+      "comment": "",
+      "command": "click",
+      "target": "id=mzr-navbarDropdown-1025230",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025230", "id"],
+        ["linkText=Products", "linkText"],
+        ["css=#mzr-navbarDropdown-1025230", "css:finder"],
+        ["xpath=(//a[contains(text(),'Products')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025230']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bbc55dd-f0d7-4738-b8cb-ff6c6c913d49",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Moz Pro",
+      "targets": [
+        ["linkText=Moz Pro", "linkText"],
+        ["css=.mzr-nav-item:nth-child(1) li:nth-child(1) .mzr-subnav-btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Moz Pro')])[3]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li/div/ul/li/div/div/a", "xpath:idRelative"],
+        ["xpath=//li/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75dae51f-ff80-42a6-8472-dffdcaab39a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Moz Local",
+      "targets": [
+        ["linkText=Moz Local", "linkText"],
+        ["css=.mzr-nav-item:nth-child(1) li:nth-child(2) .mzr-subnav-btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Moz Local')])[3]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li/div/ul/li[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de7d293f-5de5-4a89-a091-27ef272af2cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=STAT",
+      "targets": [
+        ["linkText=STAT", "linkText"],
+        ["css=.mzr-nav-item:nth-child(1) li:nth-child(3) .mzr-subnav-btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'STAT')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li/div/ul/li[3]/div/div/a", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93661d13-7864-4983-bede-8fab2af13c5c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mozscape API",
+      "targets": [
+        ["linkText=Mozscape API", "linkText"],
+        ["css=.mzr-nav-item:nth-child(1) li:nth-child(4) .mzr-subnav-btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Mozscape API')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li/div/ul/li[4]/div/div/a", "xpath:idRelative"],
+        ["xpath=//li[4]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e0beacf-ec62-41c6-88ca-a65a9ecebfd9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Compare SEO Products",
+      "targets": [
+        ["linkText=Compare SEO Products", "linkText"],
+        ["css=li:nth-child(5) > .mzr-row .mzr-dropdown-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Compare SEO Products')]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li/div/ul/li[5]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://moz.com/products')])[7]", "xpath:href"],
+        ["xpath=//li[5]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Compare SEO Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d11b2d3-f3e5-4aba-a441-adc4264f2fb5",
+      "comment": "",
+      "command": "click",
+      "target": "id=mzr-navbarDropdown-1025230",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025230", "id"],
+        ["linkText=Products", "linkText"],
+        ["css=#mzr-navbarDropdown-1025230", "css:finder"],
+        ["xpath=(//a[contains(text(),'Products')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025230']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a728a3a2-e2b9-43c7-9349-f5acbca865e5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try Moz Pro free",
+      "targets": [
+        ["linkText=Try Moz Pro free", "linkText"],
+        ["css=#moz-pro .mzr-cta-txt > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Try Moz Pro free')]", "xpath:link"],
+        ["xpath=//div[@id='moz-pro']/div/section/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/checkout/freetrial')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try Moz Pro free')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb47de6d-7e72-4c05-8301-d7134f581d74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.forge-mr-2",
+      "targets": [
+        ["css=.forge-mr-2", "css:finder"],
+        ["xpath=//input[@value='Sign up']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "032ab0c9-72fe-43e6-b309-faa91f9e3e0c",
+    "name": "moz-dashboard-free-seo-tools",
+    "commands": [{
+      "id": "382e4e8c-a3ed-4d23-885a-618d968ea3bd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d148afa-bf1d-4c4b-afaa-288f62b1c24b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x866",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14733796-5569-4772-8393-a356fcf21fad",
+      "comment": "",
+      "command": "click",
+      "target": "id=mzr-navbarDropdown-1025230",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025230", "id"],
+        ["linkText=Products", "linkText"],
+        ["css=#mzr-navbarDropdown-1025230", "css:finder"],
+        ["xpath=(//a[contains(text(),'Products')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025230']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8199e8ef-c1c9-4736-9980-f004f86e3c75",
+      "comment": "",
+      "command": "click",
+      "target": "id=mzr-navbarDropdown-1025230",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025230", "id"],
+        ["linkText=Products", "linkText"],
+        ["css=#mzr-navbarDropdown-1025230", "css:finder"],
+        ["xpath=(//a[contains(text(),'Products')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025230']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f02f9252-9976-4f9d-aaca-3d75f6347e2e",
+      "comment": "",
+      "command": "click",
+      "target": "id=mzr-navbarDropdown-1025233",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025233", "id"],
+        ["linkText=Free SEO Tools", "linkText"],
+        ["css=#mzr-navbarDropdown-1025233", "css:finder"],
+        ["xpath=(//a[contains(text(),'Free SEO Tools')])[3]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025233']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acbee60b-adb0-4005-a366-22c5d793e727",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Competitive Research",
+      "targets": [
+        ["linkText=Competitive Research", "linkText"],
+        ["css=.mzr-nav-item:nth-child(2) li:nth-child(1) .mzr-subnav-btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Competitive Research')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[2]/div/ul/li/div/div/a", "xpath:idRelative"],
+        ["xpath=//li[2]/div/ul/li/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b5ea7b6-00a0-4771-abe8-af05c9f5aa99",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Link Explorer",
+      "targets": [
+        ["linkText=Link Explorer", "linkText"],
+        ["css=.mzr-nav-item:nth-child(2) li:nth-child(2) .mzr-subnav-btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Link Explorer')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[2]/div/ul/li[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//li[2]/div/ul/li[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c6e9108-a88d-4a1d-9463-129da9a837b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Keyword Explorer",
+      "targets": [
+        ["linkText=Keyword Explorer", "linkText"],
+        ["css=.mzr-nav-item:nth-child(2) li:nth-child(3) .mzr-subnav-btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Keyword Explorer')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[2]/div/ul/li[3]/div/div/a", "xpath:idRelative"],
+        ["xpath=//li[2]/div/ul/li[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7627c302-9a76-4be3-b99b-5e2ba5d573a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Domain Analysis",
+      "targets": [
+        ["linkText=Domain Analysis", "linkText"],
+        ["css=.mzr-nav-item:nth-child(2) li:nth-child(4) .mzr-subnav-btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Domain Analysis')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[2]/div/ul/li[4]/div/div/a", "xpath:idRelative"],
+        ["xpath=//li[2]/div/ul/li[4]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cfb382e-edf3-4ba7-8a54-0fb0e03bc449",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MozBar",
+      "targets": [
+        ["linkText=MozBar", "linkText"],
+        ["css=li:nth-child(5) .mzr-dropdown-submenu", "css:finder"],
+        ["xpath=(//a[contains(text(),'MozBar')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[2]/div/ul/li[5]/div/div/a", "xpath:idRelative"],
+        ["xpath=//li[2]/div/ul/li[5]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad3aee43-ba1d-4f6b-a7a5-8707f2e058fe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More Free SEO Tools",
+      "targets": [
+        ["linkText=More Free SEO Tools", "linkText"],
+        ["css=li:nth-child(6) .mzr-subnav-btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'More Free SEO Tools')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[2]/div/ul/li[6]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://moz.com/free-seo-tools')])[2]", "xpath:href"],
+        ["xpath=//li[6]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ab18d72-271f-4761-9db9-a2d601eec0d8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Check Today's Forecast",
+      "targets": [
+        ["linkText=Check Today's Forecast", "linkText"],
+        ["css=.icon-card-col:nth-child(7) .link-cta", "css:finder"],
+        ["xpath=//main[@id='content']/div/div[2]/div/div[3]/div[7]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/mozcast/#google-algo')])[2]", "xpath:href"],
+        ["xpath=//div[7]/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ac25fa7f-0dd7-48d0-9214-2bf211ca5ffa",
+    "name": "moz-dashboard-learn-seo",
+    "commands": [{
+      "id": "73770352-5d1a-4dcb-ba1e-a77f8282fbcf",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de2a9d13-b99b-4931-b2e5-8d180b25c648",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x866",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8bf8dc20-4f2f-4500-95c9-31a863df400b",
+      "comment": "",
+      "command": "click",
+      "target": "id=mzr-navbarDropdown-1025236",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025236", "id"],
+        ["linkText=Learn SEO", "linkText"],
+        ["css=#mzr-navbarDropdown-1025236", "css:finder"],
+        ["xpath=(//a[contains(text(),'Learn SEO')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025236']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43bd955f-5a6f-424b-8566-a3bc4422aef9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mzr-nav-item:nth-child(3) li:nth-child(1) use",
+      "targets": [
+        ["css=.mzr-nav-item:nth-child(3) li:nth-child(1) use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b627ed4-47a4-43b7-8355-785b4bbe8fe9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(2) span",
+      "targets": [
+        ["css=.nav-item:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'How it works')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "414479e7-41e8-4a98-9f14-24fd66e910df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) span",
+      "targets": [
+        ["css=.nav-item:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Solutions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "919b8c00-1f6e-4ecd-a40c-e6308f051942",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Keyword Research",
+      "targets": [
+        ["linkText=Keyword Research", "linkText"],
+        ["css=.active:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Keyword Research')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/section/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/products/pro/keyword-research')]", "xpath:href"],
+        ["xpath=//section/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Keyword Research')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "295e5ae7-4b4d-4fa2-90c5-d4add250d247",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rank Tracking",
+      "targets": [
+        ["linkText=Rank Tracking", "linkText"],
+        ["css=.nav-banner > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Rank Tracking')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/section/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/products/pro/rank-tracking')]", "xpath:href"],
+        ["xpath=//section/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rank Tracking')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89119a4a-185c-44a2-9d0b-ec69d7c2bc1d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Site Crawl",
+      "targets": [
+        ["linkText=Site Crawl", "linkText"],
+        ["css=.nav-banner > .nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Site Crawl')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/section/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/products/pro/site-crawl')]", "xpath:href"],
+        ["xpath=//section/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Site Crawl')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5affe6d2-05d1-4ce0-b36a-cecff88aabe3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1.3333333730697632)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67b69138-7095-417e-ba9f-b61bf9521598",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=On-Page Optimization",
+      "targets": [
+        ["linkText=On-Page Optimization", "linkText"],
+        ["css=.nav-banner > .nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'On-Page Optimization')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/section/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/products/pro/on-page-optimization')]", "xpath:href"],
+        ["xpath=//section/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'On-Page Optimization')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "853f1e2a-87f6-4b21-810a-8615ae232091",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Optimize your content now",
+      "targets": [
+        ["linkText=Optimize your content now", "linkText"],
+        ["css=.cta-wrapper .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Optimize your content now')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div[2]/div/div/div/div[2]/div/div[4]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/checkout/freetrial')])[4]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Optimize your content now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c0f36f6-537f-4263-bcc0-da4d55c24422",
+      "comment": "",
+      "command": "click",
+      "target": "id=mzr-navbarDropdown-1025236",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025236", "id"],
+        ["linkText=Learn SEO", "linkText"],
+        ["css=#mzr-navbarDropdown-1025236", "css:finder"],
+        ["xpath=(//a[contains(text(),'Learn SEO')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025236']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ae6be9d-8c75-4ee1-9c99-217dd5433c87",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=See All SEO Guides",
+      "targets": [
+        ["linkText=See All SEO Guides", "linkText"],
+        ["css=.open li:nth-child(2) .mzr-link-list-item", "css:finder"],
+        ["xpath=//a[contains(text(),'See All SEO Guides')]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[3]/div/ul/li[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/resources?type=guides')])[2]", "xpath:href"],
+        ["xpath=//li[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'See All SEO Guides ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5cca16a-b613-46eb-a3d4-db700e0e7609",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ranking & Visibility",
+      "targets": [
+        ["linkText=Ranking & Visibility", "linkText"],
+        ["css=li:nth-child(1) > .inline", "css:finder"],
+        ["xpath=//a[contains(text(),'Ranking & Visibility')]", "xpath:link"],
+        ["xpath=//ul[@id='related-resources']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/learn/seo/ranking-visibility')]", "xpath:href"],
+        ["xpath=//aside/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ranking & Visibility')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cb6e54f-829e-4b56-a41d-0d1f665d87db",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7.333333492279053)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "851a1a71-4184-4223-908f-3fd0c4e5d588",
+      "comment": "",
+      "command": "click",
+      "target": "name=categories",
+      "targets": [
+        ["name=categories", "name"],
+        ["css=.col-md-6 > .form-select", "css:finder"],
+        ["xpath=//select[@name='categories']", "xpath:attributes"],
+        ["xpath=//div[@id='category-filters']/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df8ce123-6a60-4657-bb08-8531978015b8",
+      "comment": "",
+      "command": "select",
+      "target": "name=categories",
+      "targets": [],
+      "value": "label=Analytics and Reporting"
+    }, {
+      "id": "19ce5937-1e21-4e11-aae4-ea2cc3d5c2f6",
+      "comment": "",
+      "command": "click",
+      "target": "name=levels",
+      "targets": [
+        ["name=levels", "name"],
+        ["css=.col-md-3:nth-child(2) > .form-select", "css:finder"],
+        ["xpath=//select[@name='levels']", "xpath:attributes"],
+        ["xpath=//div[@id='category-filters']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2baa962-3126-48b3-869b-f5171cb5b89f",
+      "comment": "",
+      "command": "select",
+      "target": "name=levels",
+      "targets": [],
+      "value": "label=Intermediate"
+    }, {
+      "id": "398938b8-cf28-4e14-9693-ea9691ba65dc",
+      "comment": "",
+      "command": "click",
+      "target": "name=types",
+      "targets": [
+        ["name=types", "name"],
+        ["css=.col-md-3:nth-child(3) > .form-select", "css:finder"],
+        ["xpath=//select[@name='types']", "xpath:attributes"],
+        ["xpath=//div[@id='category-filters']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64c740b3-0410-4f54-a5c7-b42fa93f0a82",
+      "comment": "",
+      "command": "select",
+      "target": "name=types",
+      "targets": [],
+      "value": "label=Guides"
+    }, {
+      "id": "ab47b40b-0868-4099-8d2e-6fcbcf587874",
+      "comment": "",
+      "command": "click",
+      "target": "name=types",
+      "targets": [
+        ["name=types", "name"],
+        ["css=.col-md-3:nth-child(3) > .form-select", "css:finder"],
+        ["xpath=//select[@name='types']", "xpath:attributes"],
+        ["xpath=//div[@id='category-filters']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfeefd10-2e9e-495a-adfc-5feab1905ea8",
+      "comment": "",
+      "command": "select",
+      "target": "name=types",
+      "targets": [],
+      "value": "label=Tools and Templates"
+    }, {
+      "id": "3e87b748-4415-4831-8eb8-ed6974e0369e",
+      "comment": "",
+      "command": "click",
+      "target": "name=types",
+      "targets": [
+        ["name=types", "name"],
+        ["css=.col-md-3:nth-child(3) > .form-select", "css:finder"],
+        ["xpath=//select[@name='types']", "xpath:attributes"],
+        ["xpath=//div[@id='category-filters']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcb1f465-c5d3-4ac0-af93-8ea598128d4d",
+      "comment": "",
+      "command": "select",
+      "target": "name=types",
+      "targets": [],
+      "value": "label=All Types"
+    }, {
+      "id": "c01b14ed-34ff-4582-b772-1aa71e51cf5b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mobile SEO",
+      "targets": [
+        ["linkText=Mobile SEO", "linkText"],
+        ["css=li:nth-child(6) > .inline", "css:finder"],
+        ["xpath=//a[contains(text(),'Mobile SEO')]", "xpath:link"],
+        ["xpath=//ul[@id='related-resources']/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/learn/seo/mobile')]", "xpath:href"],
+        ["xpath=//aside/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mobile SEO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5bf001d-ec37-4d8c-aceb-1fda5acb311e",
+      "comment": "",
+      "command": "click",
+      "target": "name=categories",
+      "targets": [
+        ["name=categories", "name"],
+        ["css=.col-md-6 > .form-select", "css:finder"],
+        ["xpath=//select[@name='categories']", "xpath:attributes"],
+        ["xpath=//div[@id='category-filters']/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "632b627d-2126-43e1-ab12-e16ebaa2cd4c",
+      "comment": "",
+      "command": "select",
+      "target": "name=categories",
+      "targets": [],
+      "value": "label=Content Marketing"
+    }, {
+      "id": "4613d193-b6fe-4c36-9c2f-427c37fbb912",
+      "comment": "",
+      "command": "click",
+      "target": "name=levels",
+      "targets": [
+        ["name=levels", "name"],
+        ["css=.col-md-3:nth-child(2) > .form-select", "css:finder"],
+        ["xpath=//select[@name='levels']", "xpath:attributes"],
+        ["xpath=//div[@id='category-filters']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0d28f48-3240-4e8b-9a27-d3ef77e68817",
+      "comment": "",
+      "command": "select",
+      "target": "name=levels",
+      "targets": [],
+      "value": "label=Advanced"
+    }, {
+      "id": "d9ed7f75-6f1b-48b2-bfb4-eae01833bb68",
+      "comment": "",
+      "command": "click",
+      "target": "name=types",
+      "targets": [
+        ["name=types", "name"],
+        ["css=.col-md-3:nth-child(3) > .form-select", "css:finder"],
+        ["xpath=//select[@name='types']", "xpath:attributes"],
+        ["xpath=//div[@id='category-filters']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a22526a-f0d4-432d-9f4f-af5ea4f85181",
+      "comment": "",
+      "command": "click",
+      "target": "name=types",
+      "targets": [
+        ["name=types", "name"],
+        ["css=.col-md-3:nth-child(3) > .form-select", "css:finder"],
+        ["xpath=//select[@name='types']", "xpath:attributes"],
+        ["xpath=//div[@id='category-filters']/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55e75aa3-95fb-4ac3-8f36-f1d72806d0a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Read the post",
+      "targets": [
+        ["linkText=Read the post", "linkText"],
+        ["css=.card:nth-child(38) .link-cta", "css:finder"],
+        ["xpath=(//a[contains(text(),'Read the post')])[10]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div/div/article/div/div[38]/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/blog/google-traffic-links')]", "xpath:href"],
+        ["xpath=//div[38]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75ede255-08a9-4a11-88e7-f4746e02c472",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d988c798-b40c-43ca-b8ed-5e32c8de17df",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3910)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d26f36d9-1a9c-4b25-8b46-f722b91eb96b",
+    "name": "moz-dashboard-why-moz",
+    "commands": [{
+      "id": "fcf3c41d-3d7b-4ec5-80f7-ec9dde1ea46e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8be26758-6000-4d10-99e8-d213fc8a3bf4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x866",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6704bc3-5917-4d83-b759-85ebc68063e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=mzr-navbarDropdown-1025242",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025242", "id"],
+        ["linkText=Why Moz", "linkText"],
+        ["css=#mzr-navbarDropdown-1025242", "css:finder"],
+        ["xpath=(//a[contains(text(),'Why Moz')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025242']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72b166ed-b8db-45af-b7b6-62087c711f0c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Grow Your Business",
+      "targets": [
+        ["linkText=Grow Your Business", "linkText"],
+        ["css=.open li:nth-child(1) .mzr-link-list-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Grow Your Business')]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[5]/div/ul/li/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/smb-solutions')])[3]", "xpath:href"],
+        ["xpath=//li[5]/div/ul/li/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Grow Your Business ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "888c6c40-0c46-4638-85f0-bf327097d6d4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1179.3333740234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58a05320-6a38-4dfb-b6ea-9504e6042784",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1317.3333740234375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ac7a310-3186-4af7-8a0d-b2c425aab69e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try Moz Pro free",
+      "targets": [
+        ["linkText=Try Moz Pro free", "linkText"],
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=(//a[contains(text(),'Try Moz Pro free')])[2]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/section/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/checkout/freetrial')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00e20027-938e-4ca8-afc0-81e455ebdd70",
+      "comment": "",
+      "command": "click",
+      "target": "id=mzr-navbarDropdown-1025242",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025242", "id"],
+        ["linkText=Why Moz", "linkText"],
+        ["css=#mzr-navbarDropdown-1025242", "css:finder"],
+        ["xpath=(//a[contains(text(),'Why Moz')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025242']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "140fb3b9-7795-45a7-a6e4-47b235fe0683",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Drive Client Success",
+      "targets": [
+        ["linkText=Drive Client Success", "linkText"],
+        ["css=.open li:nth-child(3) .mzr-link-list-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Drive Client Success')]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[5]/div/ul/li[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/agency-solutions')])[3]", "xpath:href"],
+        ["xpath=//li[5]/div/ul/li[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Drive Client Success ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "691b60b4-127a-461b-8fe6-d4f1c67c7958",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact Us",
+      "targets": [
+        ["linkText=Contact Us", "linkText"],
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Us')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/section/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/agency-solutions#get-started-with-moz')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7247ea65-d71b-43c3-a9ac-3cf91b3bfe85",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,968.6666870117188)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "307bff42-d7dd-4845-b565-57d81b191862",
+      "comment": "",
+      "command": "click",
+      "target": "id=mzr-navbarDropdown-1025242",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025242", "id"],
+        ["linkText=Why Moz", "linkText"],
+        ["css=#mzr-navbarDropdown-1025242", "css:finder"],
+        ["xpath=(//a[contains(text(),'Why Moz')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025242']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddd6fe3f-2419-4920-b5f5-4e841fb49178",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Scale Your SEO",
+      "targets": [
+        ["linkText=Scale Your SEO", "linkText"],
+        ["css=.open li:nth-child(5) .mzr-link-list-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Scale Your SEO')]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[5]/div/ul/li[5]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/enterprise-solutions')])[3]", "xpath:href"],
+        ["xpath=//li[5]/div/ul/li[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Scale Your SEO ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8361566e-db88-41ec-b0da-560b8b2d591f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,548)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d2d3f9d-b5ad-405a-a75d-80c2d874b4dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Book a demo",
+      "targets": [
+        ["linkText=Book a demo", "linkText"],
+        ["css=.page-section-wrapper:nth-child(1) .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Book a demo')])[2]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div/div/div/div[2]/div/div[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://getstat.com/contact/')]", "xpath:href"],
+        ["xpath=//div[5]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e5a39a2-61c1-4d51-8c3b-40e239c29d9b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Book a demo",
+      "targets": [
+        ["linkText=Book a demo", "linkText"],
+        ["css=.page-section-wrapper:nth-child(1) .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Book a demo')])[2]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div/div/div/div[2]/div/div[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://getstat.com/contact/')]", "xpath:href"],
+        ["xpath=//div[5]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "427a53b3-732a-4796-947b-805a8a49e5f1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,529.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ad9b898-7f72-4350-9bba-1b1a108841f7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,709.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1629fc1b-5fd8-4146-aa63-02e159ec7c09",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,681.3333129882812)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e0020b3-28d9-4320-8b81-870b6a65cbda",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5a68539-1ab8-4f98-9869-59aae844f3f6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='mzr-top-nav']/nav/ul/li[5]/a",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025242", "id"],
+        ["linkText=Why Moz", "linkText"],
+        ["css=#mzr-navbarDropdown-1025242", "css:finder"],
+        ["xpath=(//a[contains(text(),'Why Moz')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025242']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24ac9016-9dac-431f-a805-91466f089881",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Read Our Story",
+      "targets": [
+        ["linkText=Read Our Story", "linkText"],
+        ["css=.open li:nth-child(2) .mzr-link-list-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Read Our Story')]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[5]/div/ul/li[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://moz.com/about')])[3]", "xpath:href"],
+        ["xpath=//li[5]/div/ul/li[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Read Our Story ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19c48e20-da59-404e-952e-1c0dd805e7f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) span",
+      "targets": [
+        ["css=.nav-item:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Culture')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b495b90-94f9-426b-8cd5-7d99ded41423",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) span",
+      "targets": [
+        ["css=.nav-item:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Team')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3692f67d-a6c5-4638-80f7-343b72b296dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(5) span",
+      "targets": [
+        ["css=.nav-item:nth-child(5) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Jobs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29e88a96-b0cd-4c1a-8698-99adfab5430d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=See our open listings",
+      "targets": [
+        ["linkText=See our open listings", "linkText"],
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//a[contains(text(),'See our open listings')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/section/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about/jobs#current-openings')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'See our open listings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c987db1-da68-4367-b792-7bc27a1b5fe5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(6) span",
+      "targets": [
+        ["css=.nav-item:nth-child(6) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a0c8ae4-29be-4da4-bd0b-8b4a2c89924d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact the Help Team",
+      "targets": [
+        ["linkText=Contact the Help Team", "linkText"],
+        ["css=.text-center > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact the Help Team')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/div[3]/div[2]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/help/contact')]", "xpath:href"],
+        ["xpath=//div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact the Help Team')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9302181e-ab58-4493-b8db-2eece0af0fc1",
+      "comment": "",
+      "command": "click",
+      "target": "id=mzr-navbarDropdown-1025242",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025242", "id"],
+        ["linkText=Why Moz", "linkText"],
+        ["css=#mzr-navbarDropdown-1025242", "css:finder"],
+        ["xpath=(//a[contains(text(),'Why Moz')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025242']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55772704-ca5a-4482-ba23-1bdbb8e93efc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Read Our Story",
+      "targets": [
+        ["linkText=Read Our Story", "linkText"],
+        ["css=.open li:nth-child(2) .mzr-link-list-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Read Our Story')]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[5]/div/ul/li[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://moz.com/about')])[3]", "xpath:href"],
+        ["xpath=//li[5]/div/ul/li[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Read Our Story ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e04e2d49-fecf-445b-b310-f1601e0098aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(7) span",
+      "targets": [
+        ["css=.nav-item:nth-child(7) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[7]/a/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0929887e-49c0-4ab1-9610-f9659d6a2845",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Moz Acquired by iContact Marketing Corp",
+      "targets": [
+        ["linkText=Moz Acquired by iContact Marketing Corp", "linkText"],
+        ["css=.page-section-wrapper:nth-child(1) .mb-2:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Moz Acquired by iContact Marketing Corp')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div[2]/div/div[2]/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/blog/moz-and-icontact')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Moz Acquired by iContact Marketing Corp')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a1ee7a7-6ff5-4d7e-ac87-d133a9e13813",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,21.33333396911621)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b9cf080-5f32-472a-9572-774f7ba1077e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3464)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af984989-75e9-4a6a-b9f6-afa29aa1c59d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4448)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6149c7e-4d0e-4204-9ad2-502f89bb3fe1",
+      "comment": "",
+      "command": "click",
+      "target": "id=mzr-navbarDropdown-1025242",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025242", "id"],
+        ["linkText=Why Moz", "linkText"],
+        ["css=#mzr-navbarDropdown-1025242", "css:finder"],
+        ["xpath=(//a[contains(text(),'Why Moz')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025242']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0af9a47-2886-4932-9664-9a0dcbb84613",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Read Our Story",
+      "targets": [
+        ["linkText=Read Our Story", "linkText"],
+        ["css=.open li:nth-child(2) .mzr-link-list-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Read Our Story')]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[5]/div/ul/li[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://moz.com/about')])[3]", "xpath:href"],
+        ["xpath=//li[5]/div/ul/li[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Read Our Story ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "211dcf27-55d9-4c01-b11f-9cfee2d24671",
+      "comment": "",
+      "command": "click",
+      "target": "id=mzr-navbarDropdown-1025242",
+      "targets": [
+        ["id=mzr-navbarDropdown-1025242", "id"],
+        ["linkText=Why Moz", "linkText"],
+        ["css=#mzr-navbarDropdown-1025242", "css:finder"],
+        ["xpath=(//a[contains(text(),'Why Moz')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mzr-navbarDropdown-1025242']", "xpath:attributes"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd0d4338-9274-45e6-8d3b-61003bf09180",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Drive Client Success",
+      "targets": [
+        ["linkText=Drive Client Success", "linkText"],
+        ["css=.open li:nth-child(3) .mzr-link-list-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Drive Client Success')]", "xpath:link"],
+        ["xpath=//div[@id='mzr-top-nav']/nav/ul/li[5]/div/ul/li[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/agency-solutions')])[3]", "xpath:href"],
+        ["xpath=//li[5]/div/ul/li[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Drive Client Success ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "aa2953e1-6835-4038-82f9-e14db5c3baec",
+    "name": "flow2",
+    "commands": []
+  }, {
+    "id": "f5a800bd-2d1c-4e62-a904-a3a9ae4070f6",
+    "name": "moz-contactus",
+    "commands": [{
+      "id": "b2625c45-d1ee-4a64-8e04-15556bf795f7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f42febc-3d84-4439-a84a-3d9649199f6f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x901",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2dd0430-19f6-4468-9d0d-2b2eb4a846c0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contact",
+      "targets": [
+        ["linkText=Contact", "linkText"],
+        ["css=.mzr-footer-nav-item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://moz.com/about/contact')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "176fc277-d4b6-478d-9088-03714b1a367e",
+    "name": "moz-community",
+    "commands": [{
+      "id": "8d8d9308-a73f-4c6d-b002-e8d14340f1fa",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff5ff6ff-a230-4ed1-9341-3ba7491dcc97",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x901",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b653bbdc-b1df-4545-be89-12d15b16ba73",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Community",
+      "targets": [
+        ["linkText=Community", "linkText"],
+        ["css=.mzr-footer-nav-item:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Community')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://moz.com/community')])[3]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88ac083b-6821-4328-b227-2a1b88df4862",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get the details",
+      "targets": [
+        ["linkText=Get the details", "linkText"],
+        ["css=.page-section-wrapper:nth-child(1) .icon-card-col:nth-child(2) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Get the details')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div[2]/div/div[2]/div[2]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/mozcon')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get the details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8aabcc4-51ca-4ccd-ac84-1f40ebccec1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) span",
+      "targets": [
+        ["css=.nav-item:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Speakers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa5709e2-5e76-4bf4-8162-2004eee45345",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) span",
+      "targets": [
+        ["css=.nav-item:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Schedule')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c5caa7b-0815-4492-a4bc-0a6b22612b8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(5) span",
+      "targets": [
+        ["css=.nav-item:nth-child(5) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Socialize')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e9ad575-0087-4f53-9d1b-ab11f3b31fa1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.active span",
+      "targets": [
+        ["css=.active span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Socialize')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93bc9c64-1686-4289-a7a1-f7616cca3450",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.active span",
+      "targets": [
+        ["css=.active span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Socialize')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "caeac997-2456-4142-a3a4-2e5c59a594e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(6) span",
+      "targets": [
+        ["css=.nav-item:nth-child(6) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'FAQs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87ed3245-db1b-4ada-9fae-b50f73bfecae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(7) span",
+      "targets": [
+        ["css=.nav-item:nth-child(7) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[7]/a/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Videos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c884ae1-1236-4709-9a50-2c7efcf2036b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Videos",
+      "targets": [
+        ["linkText=Videos", "linkText"],
+        ["css=.active > .nav-link", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mozcon/videos')]", "xpath:href"],
+        ["xpath=//div[2]/nav/div/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4e80ec7-a12b-40eb-a64d-d1f7d24a46c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(8) span",
+      "targets": [
+        ["css=.nav-item:nth-child(8) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd34c268-a6f7-4c46-bdc6-ad37c2e9a32e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=.active > .nav-link", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mozcon/news')]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0f87efe0-3ce4-4edc-8e03-a1a9bc26c360",
+    "name": "moz-start-my-freetrial",
+    "commands": [{
+      "id": "788dd29d-cb03-4e25-be6b-e831e1f08bd8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4315eee-31ea-49ac-ac90-8e292434e0fa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x901",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04eb8561-50af-4d67-b399-7b5bb928cf40",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Free Trial",
+      "targets": [
+        ["linkText=Free Trial", "linkText"],
+        ["css=.mzr-footer-nav-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Free Trial')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://moz.com/moz-pro-free-trial')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Free Trial')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4be8965-add7-457f-b1b8-49513b38ff11",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start my free trial",
+      "targets": [
+        ["linkText=Start my free trial", "linkText"],
+        ["css=.d-inline-block > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Start my free trial')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/checkout/freetrial')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start my free trial')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a1be3955-cfcc-474b-80ec-ec74054bb35c",
+    "name": "moz-terms-and-privacy",
+    "commands": [{
+      "id": "c4ff8f0b-4f39-44aa-a892-45085f509eaa",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "218cc383-257b-44bb-84d9-4d99e624e7d4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x901",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf3d9a31-1a45-4a6e-9fee-ec4903069310",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terms & Privacy",
+      "targets": [
+        ["linkText=Terms & Privacy", "linkText"],
+        ["css=.mzr-footer-nav-item:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Terms & Privacy')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://moz.com/privacy-policy')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Terms & Privacy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8423c0e2-117e-496c-a7d0-4f26fa41bc7f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Legal",
+      "targets": [
+        ["linkText=Legal", "linkText"],
+        ["css=.navbar-subnav-title:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Legal')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[107]", "xpath:href"],
+        ["xpath=//div[2]/nav/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Legal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f71adf0b-4c8a-45df-b41f-5c73938a10e7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Legal",
+      "targets": [
+        ["linkText=Legal", "linkText"],
+        ["css=.navbar-subnav-title:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Legal')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[107]", "xpath:href"],
+        ["xpath=//div[2]/nav/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Legal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eae85d4a-71fa-4a21-b962-8bdc39d78e19",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(2) span",
+      "targets": [
+        ["css=.nav-item:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Terms of Use')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a16023d-2382-48da-9c60-ffac954be99d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) span",
+      "targets": [
+        ["css=.nav-item:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Privacy Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a6e19f5-163c-482b-b327-da092bd097ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active span",
+      "targets": [
+        ["css=.active span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Privacy Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "149e9d2f-2f70-4923-8c72-b72dc7539656",
+    "name": "moz-jobs",
+    "commands": [{
+      "id": "0b5c92a5-bf97-4090-b313-725c9034f98a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b563d48-2600-424c-a8a6-b975b1e31025",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x901",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2ed3400-6eb3-4a33-baa1-179ed9f9fed0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Jobs",
+      "targets": [
+        ["linkText=Jobs", "linkText"],
+        ["css=.mzr-footer-nav-item:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Jobs')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://moz.com/about/jobs')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Jobs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0db38734-4978-4f2b-85ff-0805b03aee87",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=See our open listings",
+      "targets": [
+        ["linkText=See our open listings", "linkText"],
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//a[contains(text(),'See our open listings')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/section/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about/jobs#current-openings')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'See our open listings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab184e1d-06c0-444f-881c-530d7c0026bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=See our open listings",
+      "targets": [
+        ["linkText=See our open listings", "linkText"],
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//a[contains(text(),'See our open listings')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/section/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about/jobs#current-openings')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'See our open listings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d10652e1-f6a7-4a66-bbd1-d1a509addf67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page-section:nth-child(3) a",
+      "targets": [
+        ["css=.page-section:nth-child(3) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Senior Growth Marketer\n                          | Remote - Canada')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div[4]/div[2]/div/div[3]/div/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://app.jobvite.com/CompanyJobs/Job.aspx?j=opx4jfw3')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win945",
+      "windowTimeout": 2000
+    }, {
+      "id": "268d22b0-fd93-4ef4-8d4d-bab790b5709c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win945}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "915c6030-7afc-4cc5-bf2b-63d82a0ad2db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Apply Later",
+      "targets": [
+        ["linkText=Apply Later", "linkText"],
+        ["css=.jv-button-apply-later", "css:finder"],
+        ["xpath=//a[contains(text(),'Apply Later')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'mailto:?subject=Apply for Senior Growth Marketer at MOZ Group&body=To apply for Senior Growth Marketer at MOZ Group, click the link below:%0A%0Ahttps%3A%2F%2Fjobs.jobvite.com%2Fcareers%2Fmoz-group%2Fjob%2Fopx4jfw3%3F__jvst%3DCareer%2520Site')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Apply Later')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "19f0bf90-e779-49ac-9655-bc81d92069f5",
+    "name": "moz-academy-certification",
+    "commands": [{
+      "id": "4823790e-f299-4ec3-ba3b-5309dac89ecf",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1074bdd7-93e0-4361-9144-0b22394dd224",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x901",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1db7cf1-6a41-42d5-b8d9-d4f152814dac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Help",
+      "targets": [
+        ["linkText=Help", "linkText"],
+        ["css=.mzr-footer-nav-item:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Help')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://moz.com/help')])[4]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Help')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4354b810-9c52-4bb4-9065-cefa334e400b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get Certified",
+      "targets": [
+        ["linkText=Get Certified", "linkText"],
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//a[contains(text(),'Get Certified')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div[2]/div/div/div/div/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://academy.moz.com/?_ga=2.239278787.1731066906.1661942417-5271377.1661942417')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get Certified')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5697",
+      "windowTimeout": 2000
+    }, {
+      "id": "3b68148f-798c-4d69-87ec-43d9d1f13735",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5697}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d843851-2659-4c0a-b014-6d3bec9b19ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=#filter_tag_difficulty_1-beginner-basic-awareness .fa-circle-o",
+      "targets": [
+        ["css=#filter_tag_difficulty_1-beginner-basic-awareness .fa-circle-o", "css:finder"],
+        ["xpath=//a[@id='filter_tag_difficulty_1-beginner-basic-awareness']/span/i[3]", "xpath:idRelative"],
+        ["xpath=//span/i[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "513c0e06-525d-4cd4-81a2-c260575249be",
+      "comment": "",
+      "command": "click",
+      "target": "css=#filter_tag_difficulty_2-novice-limited-knowledge .fa-circle-o",
+      "targets": [
+        ["css=#filter_tag_difficulty_2-novice-limited-knowledge .fa-circle-o", "css:finder"],
+        ["xpath=//a[@id='filter_tag_difficulty_2-novice-limited-knowledge']/span/i[3]", "xpath:idRelative"],
+        ["xpath=//a[2]/span/i[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f300eb26-c4a1-42ad-aaf3-ee8a75be6811",
+      "comment": "",
+      "command": "click",
+      "target": "css=#filter_tag_difficulty_3-intermediate-moderate-experience .fa-circle-o",
+      "targets": [
+        ["css=#filter_tag_difficulty_3-intermediate-moderate-experience .fa-circle-o", "css:finder"],
+        ["xpath=//a[@id='filter_tag_difficulty_3-intermediate-moderate-experience']/span/i[3]", "xpath:idRelative"],
+        ["xpath=//a[3]/span/i[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ca9dd85-9f10-4ef9-8fd8-0eacb701b167",
+      "comment": "",
+      "command": "click",
+      "target": "css=#filter_tag_seo-topic_agency .fa-circle-o",
+      "targets": [
+        ["css=#filter_tag_seo-topic_agency .fa-circle-o", "css:finder"],
+        ["xpath=//a[@id='filter_tag_seo-topic_agency']/span/i[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span/i[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4a99e43-a9af-4399-aa7f-7577ca2c226e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#filter_tag_seo-topic_links .fa-circle-o",
+      "targets": [
+        ["css=#filter_tag_seo-topic_links .fa-circle-o", "css:finder"],
+        ["xpath=//a[@id='filter_tag_seo-topic_links']/span/i[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/a[3]/span/i[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d550833-4e7d-4178-960b-5014d03aa350",
+      "comment": "",
+      "command": "click",
+      "target": "css=#filter_tag_type_certifications .fa-circle-o",
+      "targets": [
+        ["css=#filter_tag_type_certifications .fa-circle-o", "css:finder"],
+        ["xpath=//a[@id='filter_tag_type_certifications']/span/i[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/a/span/i[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c0c0fdc-47b6-427d-aaec-b7ddcecbd01b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.course:nth-child(1) > .coursebox-text",
+      "targets": [
+        ["css=.course:nth-child(1) > .coursebox-text", "css:finder"],
+        ["xpath=//div[@id='catalog-courses']/a/div[3]", "xpath:idRelative"],
+        ["xpath=//a/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9e4c81c-3196-4e94-9873-e820e7920eeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.purchase-button > .purchase-button-full-text",
+      "targets": [
+        ["css=.purchase-button > .purchase-button-full-text", "css:finder"],
+        ["xpath=//div[@id='purchase-button-wrapper-large']/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Purchase | $595')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8765fa96-93c6-4243-8215-52ea8c950214",
+    "name": "moz-news-release",
+    "commands": [{
+      "id": "06cc849b-9b54-4aa2-92ef-124a68c31ada",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cccdc41-f40d-4988-938b-adea1c627a4a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x901",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad6dade4-97fe-4c22-819e-7cce9991d0f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News & Press",
+      "targets": [
+        ["linkText=News & Press", "linkText"],
+        ["css=.mzr-footer-nav-item:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'News & Press')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://moz.com/about/news')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News & Press')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da323beb-c10a-4380-92f1-b9335773f479",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Moz Adds Two Tech Founders With Digital Marketing Expertise to Board",
+      "targets": [
+        ["linkText=Moz Adds Two Tech Founders With Digital Marketing Expertise to Board", "linkText"],
+        ["css=.page-section-wrapper:nth-child(5) .mb-2:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Moz Adds Two Tech Founders With Digital Marketing Expertise to Board')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div[3]/div[2]/div/div[2]/div/p[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.businesswire.com/news/home/20200916005573/en/Moz-Adds-Two-Tech-Founders-With-Digital-Marketing-Expertise-to-Board')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/div[2]/div/p[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Moz Adds Two Tech Founders With Digital Marketing Expertise to Board')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6561",
+      "windowTimeout": 2000
+    }, {
+      "id": "bb702aa9-3a05-4bc2-89a3-10d4e174479b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6561}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bd8ed57-ba72-459d-9bc2-4f7b1d2ce5b5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Tara Reed",
+      "targets": [
+        ["linkText=Tara Reed", "linkText"],
+        ["css=a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Tara Reed')]", "xpath:link"],
+        ["xpath=//div[@id='bw-news-view']/article/div/div[2]/p/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://cts.businesswire.com/ct/CT?id=smartlink&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Ftarawreed%2F&esheet=52287948&newsitemid=20200916005573&lan=en-US&anchor=Tara+Reed&index=4&md5=fcddc084901ee210377b1f1409e8d19f')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Tara Reed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0befdff-b1f0-4204-85f2-6a80d949d186",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,543.3333129882812)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "bb44f2be-5df4-4289-97c5-5f09763798a5",
+    "name": "moz-search",
+    "commands": [{
+      "id": "cad83d18-e871-4415-8d3d-f25d56739d44",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff9919dd-7769-4031-a341-6cba5be5f590",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x901",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "188eee66-8441-457c-81d3-a600df782686",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mzr-navbar",
+      "targets": [
+        ["css=.mzr-navbar", "css:finder"],
+        ["xpath=//div[@id='mzr-top-nav']/nav", "xpath:idRelative"],
+        ["xpath=//nav", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8ccede1-91af-4617-a41b-cbd614b0b653",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mzr-nav-item > a use",
+      "targets": [
+        ["css=.mzr-nav-item > a use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcecabf0-4425-4f57-8b94-374097aa633d",
+      "comment": "",
+      "command": "click",
+      "target": "id=bcs-searchbox",
+      "targets": [
+        ["id=bcs-searchbox", "id"],
+        ["css=#bcs-searchbox", "css:finder"],
+        ["xpath=//input[@id='bcs-searchbox']", "xpath:attributes"],
+        ["xpath=//main[@id='content']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eb8856b-f5fd-411c-a0e0-1be1595c674b",
+      "comment": "",
+      "command": "type",
+      "target": "id=bcs-searchbox",
+      "targets": [
+        ["id=bcs-searchbox", "id"],
+        ["css=#bcs-searchbox", "css:finder"],
+        ["xpath=//input[@id='bcs-searchbox']", "xpath:attributes"],
+        ["xpath=//main[@id='content']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "news"
+    }, {
+      "id": "bf540a51-585a-46dd-a75b-54796e7d88c1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=bcs-searchbox",
+      "targets": [
+        ["id=bcs-searchbox", "id"],
+        ["css=#bcs-searchbox", "css:finder"],
+        ["xpath=//input[@id='bcs-searchbox']", "xpath:attributes"],
+        ["xpath=//main[@id='content']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c82a6960-944e-40df-8ac1-1f13790d1fe2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=.bcs-pagination li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'2')]", "xpath:link"],
+        ["xpath=(//a[@onclick='bcsPaginationClick(this)'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='bcs-results-div']/ol/li[10]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//li[10]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16392ca6-274f-41b0-8c26-5f117d9b1754",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=3",
+      "targets": [
+        ["linkText=3", "linkText"],
+        ["css=.bcs-pagination li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'3')])[2]", "xpath:link"],
+        ["xpath=(//a[@onclick='bcsPaginationClick(this)'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='bcs-results-div']/ol/li[11]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//li[11]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c10572f-f214-4e30-8652-6b03604ae167",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=4",
+      "targets": [
+        ["linkText=4", "linkText"],
+        ["css=.bcs-pagination li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'4')]", "xpath:link"],
+        ["xpath=(//a[@onclick='bcsPaginationClick(this)'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='bcs-results-div']/ol/li[11]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//li[11]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27d27230-6017-4eb3-8d11-8b4c93433524",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=6",
+      "targets": [
+        ["linkText=6", "linkText"],
+        ["css=.bcs-pagination li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'6')])[2]", "xpath:link"],
+        ["xpath=(//a[@onclick='bcsPaginationClick(this)'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='bcs-results-div']/ol/li[11]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//li[11]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "660adb4a-cbb2-4821-98cd-94ec44239ecf",
+    "name": "moz-all-features",
+    "commands": [{
+      "id": "1faf5336-5c96-4f53-a070-6a8a88b6fbd8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa244abd-6af3-43a7-9190-5da007feb47e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x901",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "046f3f11-346d-4810-ad3b-5f2fac60e3e7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore all features",
+      "targets": [
+        ["linkText=Explore all features", "linkText"],
+        ["css=.cta-wrapper > div > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore all features')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div[2]/div[2]/div/div[4]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/products/pro/keyword-research')])[3]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore all features')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30e1b729-3325-40cd-95ac-8bd22dbf80cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Site Crawl",
+      "targets": [
+        ["linkText=Site Crawl", "linkText"],
+        ["css=.nav-banner > .nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Site Crawl')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/section/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/products/pro/site-crawl')]", "xpath:href"],
+        ["xpath=//section/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Site Crawl')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e00e2d65-c996-4f3b-ada3-010b579741af",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=On-Page Optimization",
+      "targets": [
+        ["linkText=On-Page Optimization", "linkText"],
+        ["css=.nav-banner > .nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'On-Page Optimization')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/section/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/products/pro/on-page-optimization')]", "xpath:href"],
+        ["xpath=//section/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'On-Page Optimization')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30d46966-32a6-4841-bfec-e80b2154d6f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Link Research",
+      "targets": [
+        ["linkText=Link Research", "linkText"],
+        ["css=.nav-banner > .nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Link Research')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/section/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/products/pro/link-research')]", "xpath:href"],
+        ["xpath=//section/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Link Research')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f655a96-dc03-406a-be2c-7fff03e0f1af",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Custom Reports",
+      "targets": [
+        ["linkText=Custom Reports", "linkText"],
+        ["css=.nav-item:nth-child(6) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Custom Reports')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/section/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/products/pro/custom-reports')]", "xpath:href"],
+        ["xpath=//section/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Custom Reports')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2721d4fd-ed3c-446a-9df7-6f8344b995ee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try Moz now!",
+      "targets": [
+        ["linkText=Try Moz now!", "linkText"],
+        ["css=.cta-wrapper .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Try Moz now!')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div[3]/div/div/div/div[2]/div/div[4]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/checkout/freetrial')])[4]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try Moz now!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6d06dd7d-ad28-4209-8ce1-b349dbd58065",
+    "name": "moz-api-dashboard",
+    "commands": [{
+      "id": "005b08f5-2469-4a4b-a823-9d26a9fac3a1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c150b63-3485-451d-8793-4aa90a00ed0a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x901",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0d751d1-b13e-4c98-8653-d7c5357fa8e1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Moz API",
+      "targets": [
+        ["linkText=Moz API", "linkText"],
+        ["css=.mt-8 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Moz API')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div[3]/div/div/div[3]/h4/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/products/api')])[4]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Moz API')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "629ff942-a57f-4205-9c2f-487550013e7d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get more data",
+      "targets": [
+        ["linkText=Get more data", "linkText"],
+        ["css=.mb-4 > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Get more data')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div[2]/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/products/api/pricing/data')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get more data')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "453e12f5-61ca-4ba9-8e7d-9a2fa3559ca2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-nav-primary > .nav-item:nth-child(2) span",
+      "targets": [
+        ["css=.navbar-nav-primary > .nav-item:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Overview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0762edc-4081-422b-8ba8-e1db62488453",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) span",
+      "targets": [
+        ["css=.nav-item:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gallery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fde79ad9-6156-4cef-b47a-5469eb74ee88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) span",
+      "targets": [
+        ["css=.nav-item:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pricing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8242de4-a02e-4225-9ea7-892d27bea364",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(5) span",
+      "targets": [
+        ["css=.nav-item:nth-child(5) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Get Started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7372bcd3-dd8e-4a82-a6dd-ab88a2d74041",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(2)",
+      "targets": [
+        ["css=span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul[2]/li/a/span", "xpath:idRelative"],
+        ["xpath=//ul[2]/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30e4c2eb-40b4-4ad6-a610-facf2683e1ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-nav-secondary > .nav-item:nth-child(2) span",
+      "targets": [
+        ["css=.navbar-nav-secondary > .nav-item:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/nav/div/ul[2]/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//ul[2]/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Documentation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0f8430e-0105-49ab-9b5e-17b0f377398b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Moz API for Sheets",
+      "targets": [
+        ["linkText=Moz API for Sheets", "linkText"],
+        ["css=ul:nth-child(7) > li:nth-child(7) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Moz API for Sheets')])[2]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div/div/article/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://moz.com/help/links-api/making-calls/sheets-add-on')])[2]", "xpath:href"],
+        ["xpath=//article/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "687bc347-6403-48e2-a91c-a6eee8ca2507",
+    "name": "moz-read-more",
+    "commands": [{
+      "id": "513b1339-208a-4895-8ff6-f97c3b5660e4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c40a937-a4d1-4295-8b8a-ed6402191a2f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x901",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "856a9632-9a2f-4e96-8f14-c8e626f596ad",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Learn more",
+      "targets": [
+        ["linkText=Learn more", "linkText"],
+        ["css=.icon-card-col:nth-child(1) > .h-100 .link-cta", "css:finder"],
+        ["xpath=(//a[contains(text(),'Learn more')])[5]", "xpath:link"],
+        ["xpath=//main[@id='content']/div[2]/div[2]/div/div[3]/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/products/pro/site-crawl')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da78c7e5-f89c-4ec8-97b0-4a9ee72cc38a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start a site audit now",
+      "targets": [
+        ["linkText=Start a site audit now", "linkText"],
+        ["css=.cta-wrapper .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Start a site audit now')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div[2]/div/div/div/div[2]/div/div[4]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/checkout/freetrial')])[4]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start a site audit now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "176cae41-54c2-4b48-935d-5538f6763849",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.forge-col-12:nth-child(1) > .forge-form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-0']/div/div/form/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1986b36-e48b-404d-80dc-e16046b4e58e",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.forge-col-12:nth-child(1) > .forge-form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-0']/div/div/form/section/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "sample123@gmail.com"
+    }, {
+      "id": "cef9a15d-5220-4c81-8e93-056d55196dd0",
+      "comment": "",
+      "command": "click",
+      "target": "name=display_name",
+      "targets": [
+        ["name=display_name", "name"],
+        ["css=section:nth-child(1) .forge-col-12:nth-child(2) > .forge-form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='display_name']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-0']/div/div/form/section/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbb41fc8-8d0e-4176-8b2c-52c06e64ce01",
+      "comment": "",
+      "command": "type",
+      "target": "name=display_name",
+      "targets": [
+        ["name=display_name", "name"],
+        ["css=section:nth-child(1) .forge-col-12:nth-child(2) > .forge-form-control:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='display_name']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-0']/div/div/form/section/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "monitor"
+    }, {
+      "id": "5dac4e95-a27d-4eed-a77f-9ed68176d87f",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.forge-form-group:nth-child(3) > .forge-form-control:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-0']/div/div/form/section/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa752ba8-be3a-486b-b028-caf7db0af486",
+      "comment": "",
+      "command": "click",
+      "target": "name=display_name",
+      "targets": [
+        ["name=display_name", "name"],
+        ["css=.forge-is-invalid", "css:finder"],
+        ["xpath=//input[@name='display_name']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-0']/div/div/form/section/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd785d4b-d5c1-422a-873c-a5c27f330dc2",
+      "comment": "",
+      "command": "type",
+      "target": "name=display_name",
+      "targets": [
+        ["name=display_name", "name"],
+        ["css=.forge-is-invalid", "css:finder"],
+        ["xpath=//input[@name='display_name']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-0']/div/div/form/section/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "perfmonitor"
+    }, {
+      "id": "e882c147-2d7a-418f-af48-2df9b0f976b4",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.forge-form-group:nth-child(3) > .forge-form-control:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-0']/div/div/form/section/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bd9690d-7168-46d9-bf29-f501f0a3e119",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.forge-form-group:nth-child(3) > .forge-form-control:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-0']/div/div/form/section/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Sample@12345"
+    }, {
+      "id": "5ff600d1-7f14-4a7c-b490-b42281d339e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.forge-position-relative",
+      "targets": [
+        ["css=.forge-position-relative", "css:finder"],
+        ["xpath=//div[@id='forge_form_multiform-combined']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9de11065-6f46-436b-8e90-45f234a3f2ed",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=company_sizes",
+      "targets": [
+        ["id=company_sizes", "id"],
+        ["name=company_sizes", "name"],
+        ["css=#company_sizes", "css:finder"],
+        ["xpath=//select[@id='company_sizes']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-1']/div/div/form/section/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "38,26.61456298828125"
+    }, {
+      "id": "57272828-152b-489c-8e7c-c79b2e295a3f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=company_sizes",
+      "targets": [
+        ["id=company_sizes", "id"],
+        ["name=company_sizes", "name"],
+        ["css=#company_sizes", "css:finder"],
+        ["xpath=//select[@id='company_sizes']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-1']/div/div/form/section/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "38,26.61456298828125"
+    }, {
+      "id": "283605df-fccc-4e2d-88e7-75ee613d7ca8",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=company_sizes",
+      "targets": [
+        ["id=company_sizes", "id"],
+        ["name=company_sizes", "name"],
+        ["css=#company_sizes", "css:finder"],
+        ["xpath=//select[@id='company_sizes']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-1']/div/div/form/section/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "38,26.61456298828125"
+    }, {
+      "id": "7c5af10d-d607-456c-a72c-1f6f6cd7f42c",
+      "comment": "",
+      "command": "click",
+      "target": "id=company_sizes",
+      "targets": [
+        ["id=company_sizes", "id"],
+        ["name=company_sizes", "name"],
+        ["css=#company_sizes", "css:finder"],
+        ["xpath=//select[@id='company_sizes']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-1']/div/div/form/section/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f9d84c1-4107-4b25-bf21-163804ec651a",
+      "comment": "",
+      "command": "select",
+      "target": "id=company_sizes",
+      "targets": [],
+      "value": "label=11-50"
+    }, {
+      "id": "98ce887d-22eb-48d3-91f0-644d6567c8f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=company_industry",
+      "targets": [
+        ["id=company_industry", "id"],
+        ["name=company_industry", "name"],
+        ["css=#company_industry", "css:finder"],
+        ["xpath=//select[@id='company_industry']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-1']/div/div/form/section/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e2b8a07-4b56-4be6-814c-75831c68d479",
+      "comment": "",
+      "command": "click",
+      "target": "id=company_industry",
+      "targets": [
+        ["id=company_industry", "id"],
+        ["name=company_industry", "name"],
+        ["css=#company_industry", "css:finder"],
+        ["xpath=//select[@id='company_industry']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-1']/div/div/form/section/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff7902b6-541d-4de1-af86-e5f0440c6bc7",
+      "comment": "",
+      "command": "click",
+      "target": "id=company_industry",
+      "targets": [
+        ["id=company_industry", "id"],
+        ["name=company_industry", "name"],
+        ["css=#company_industry", "css:finder"],
+        ["xpath=//select[@id='company_industry']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined-1']/div/div/form/section/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84ce139e-186e-494c-8ba1-45be3b9eb82c",
+      "comment": "",
+      "command": "select",
+      "target": "id=company_industry",
+      "targets": [],
+      "value": "label=Software"
+    }, {
+      "id": "3b4b2b24-b189-44e1-bd73-d30f20a5048e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.forge-mr-2",
+      "targets": [
+        ["css=.forge-mr-2", "css:finder"],
+        ["xpath=//input[@value='Sign up']", "xpath:attributes"],
+        ["xpath=//div[@id='forge_form_multiform-combined']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "05da5dac-8237-449c-9e5a-1094522ce305",
+    "name": "moz-beginners-guide-to-seo",
+    "commands": [{
+      "id": "91d9a601-8976-442e-85a3-bfe4984c89fe",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a7ef814-45a3-4fe3-8452-8b9d2b66b654",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x901",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d5bda808-c084-4e38-bbd8-db0d9b118217",
+      "comment": "",
+      "command": "click",
+      "target": "name=site",
+      "targets": [
+        ["name=site", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='site']", "xpath:attributes"],
+        ["xpath=//form[@id='js-form-cta-1502909-1267395115']/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4763c865-91af-4b2e-9e06-f74e76cafdfd",
+      "comment": "",
+      "command": "type",
+      "target": "name=site",
+      "targets": [
+        ["name=site", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='site']", "xpath:attributes"],
+        ["xpath=//form[@id='js-form-cta-1502909-1267395115']/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/input", "xpath:position"]
+      ],
+      "value": "google.com"
+    }, {
+      "id": "cf1d9d1c-7277-4b60-825e-b61882132eff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rounded-btn",
+      "targets": [
+        ["css=.rounded-btn", "css:finder"],
+        ["xpath=//form[@id='js-form-cta-1502909-1267395115']/button", "xpath:idRelative"],
+        ["xpath=//div/div/form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Analyze domain')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f626df0c-a3e3-4642-be6b-fef076193481",
+      "comment": "",
+      "command": "click",
+      "target": "css=.forge-close > span",
+      "targets": [
+        ["css=.forge-close > span", "css:finder"],
+        ["xpath=//div[@id='open-modal']/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f466a92-973b-41c6-807a-6858cfd2aa82",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Read the Beginner's Guide to SEO",
+      "targets": [
+        ["linkText=Read the Beginner's Guide to SEO", "linkText"],
+        ["css=.col-12:nth-child(1) .lead", "css:finder"],
+        ["xpath=//main[@id='content']/div[4]/div/div/div[3]/div/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/beginners-guide-to-seo#home')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5a344a6-b38e-4417-95cd-39095d206929",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=dropdownMenuLink",
+      "targets": [
+        ["id=dropdownMenuLink", "id"],
+        ["linkText=Chapters", "linkText"],
+        ["css=#dropdownMenuLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Chapters')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMenuLink']", "xpath:attributes"],
+        ["xpath=//main[@id='content']/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa0c9060-d5f4-4a68-9fbd-b71ba3b6a038",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12:nth-child(1) > .p-4:nth-child(2)",
+      "targets": [
+        ["css=.col-12:nth-child(1) > .p-4:nth-child(2)", "css:finder"],
+        ["xpath=//main[@id='content']/div[3]/div/nav/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://moz.com/beginners-guide-to-seo/why-search-engine-marketing-is-necessary')])[3]", "xpath:href"],
+        ["xpath=//nav/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb270e8a-bb05-4613-bbb6-5d0e8d9f7321",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-12:nth-child(1) > .p-4:nth-child(3)",
+      "targets": [
+        ["css=.col-12:nth-child(1) > .p-4:nth-child(3)", "css:finder"],
+        ["xpath=//main[@id='content']/div[3]/div/nav/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://moz.com/beginners-guide-to-seo/how-search-engines-operate')])[4]", "xpath:href"],
+        ["xpath=//nav/div/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7b0502d-fbbf-4753-81bb-285a60b6f81b",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMenuLink",
+      "targets": [
+        ["id=dropdownMenuLink", "id"],
+        ["linkText=Chapters", "linkText"],
+        ["css=#dropdownMenuLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Chapters')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMenuLink']", "xpath:attributes"],
+        ["xpath=//main[@id='content']/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e53153d1-5b89-4f5a-ade1-7f2e84bdd5a2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Keyword Research",
+      "targets": [
+        ["linkText=Keyword Research", "linkText"],
+        ["css=.dropdown-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Keyword Research')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div/div/div/div/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/beginners-guide-to-seo/keyword-research')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Keyword Research')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96ca4c5b-e7db-4133-9a34-04075a61f77a",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMenuLink",
+      "targets": [
+        ["id=dropdownMenuLink", "id"],
+        ["linkText=Chapters", "linkText"],
+        ["css=#dropdownMenuLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Chapters')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMenuLink']", "xpath:attributes"],
+        ["xpath=//main[@id='content']/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e6bb792-db28-4786-8e9f-5ff8603f1e9c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Technical SEO",
+      "targets": [
+        ["linkText=Technical SEO", "linkText"],
+        ["css=.dropdown-item:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Technical SEO')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div/div/div/div/div/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/beginners-guide-to-seo/technical-seo')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Technical SEO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c014b66-df12-4f25-a8ce-b078d69dc555",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,350)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6aec4f55-0a64-4f0b-974b-463b7c21af67",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMenuLink",
+      "targets": [
+        ["id=dropdownMenuLink", "id"],
+        ["linkText=Chapters", "linkText"],
+        ["css=#dropdownMenuLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Chapters')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMenuLink']", "xpath:attributes"],
+        ["xpath=//main[@id='content']/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28d90d31-ad72-49ca-bb40-40475667055b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Link Building & Establishing Authority",
+      "targets": [
+        ["linkText=Link Building & Establishing Authority", "linkText"],
+        ["css=.dropdown-item:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Link Building & Establishing Authority')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div/div/div/div/div/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/beginners-guide-to-seo/growing-popularity-and-links')]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Link Building & Establishing Authority')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec91b214-cfb7-49bc-8c97-076b93ac15f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMenuLink",
+      "targets": [
+        ["id=dropdownMenuLink", "id"],
+        ["linkText=Chapters", "linkText"],
+        ["css=#dropdownMenuLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Chapters')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMenuLink']", "xpath:attributes"],
+        ["xpath=//main[@id='content']/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fd43fe0-c1bb-445b-b68c-38071106ee1f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Measuring & Tracking SEO Success",
+      "targets": [
+        ["linkText=Measuring & Tracking SEO Success", "linkText"],
+        ["css=.dropdown-item:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Measuring & Tracking SEO Success')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div/div/div/div/div/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/beginners-guide-to-seo/measuring-and-tracking-success')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'Measuring & Tracking SEO Success')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47fb044e-4f53-485b-a399-8b40a68df561",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMenuLink",
+      "targets": [
+        ["id=dropdownMenuLink", "id"],
+        ["linkText=Chapters", "linkText"],
+        ["css=#dropdownMenuLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Chapters')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMenuLink']", "xpath:attributes"],
+        ["xpath=//main[@id='content']/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13832f64-52dd-436c-bcd0-30dce01220fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Measuring & Tracking SEO Success",
+      "targets": [
+        ["linkText=Measuring & Tracking SEO Success", "linkText"],
+        ["css=.dropdown-item:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Measuring & Tracking SEO Success')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div/div/div/div/div/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/beginners-guide-to-seo/measuring-and-tracking-success')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'Measuring & Tracking SEO Success')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74fb5d77-f662-47e4-b48f-fc83243997c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=dropdownMenuLink",
+      "targets": [
+        ["id=dropdownMenuLink", "id"],
+        ["linkText=Chapters", "linkText"],
+        ["css=#dropdownMenuLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Chapters')]", "xpath:link"],
+        ["xpath=//a[@id='dropdownMenuLink']", "xpath:attributes"],
+        ["xpath=//main[@id='content']/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99d48280-5c16-406e-b4d1-b1615b0d7406",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SEO Glossary",
+      "targets": [
+        ["linkText=SEO Glossary", "linkText"],
+        ["css=.dropdown-item:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'SEO Glossary')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div/div/div/div/div/a[9]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/beginners-guide-to-seo/seo-glossary')]", "xpath:href"],
+        ["xpath=//a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'SEO Glossary')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f0001b7-8ee7-479b-8e08-5a46430994a8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,368)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c9d3a426-7cc6-4d80-a7ec-748673459b59",
+    "name": "moz-seo-learning-center",
+    "commands": [{
+      "id": "95b09a09-a11e-4596-989f-b6fd4e6f7035",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c99c4ec1-a5c8-4a8d-a894-cd5ee6ed32ef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x901",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a0216ac-41ad-4f76-82aa-c23df03d1e2c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Visit the SEO Learning Center",
+      "targets": [
+        ["linkText=Visit the SEO Learning Center", "linkText"],
+        ["css=.col-12:nth-child(2) .lead", "css:finder"],
+        ["xpath=//a[contains(text(),'Visit the SEO Learning Center')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div[4]/div/div/div[3]/div/div[2]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/learn/seo')])[5]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca65fe82-38ed-4cf2-8c9c-75be2c3efeed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Analytics and Reporting",
+      "targets": [
+        ["linkText=Analytics and Reporting", "linkText"],
+        ["css=.btn-fake-outline:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Analytics and Reporting')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/learn/seo/analytics-reporting')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Analytics and Reporting')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2bd81b1-f58e-4609-8f61-f9ac17cceaf3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SEO Learning Center",
+      "targets": [
+        ["linkText=SEO Learning Center", "linkText"],
+        ["css=.breadcrumb-item > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'SEO Learning Center')])[2]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div/div/ol/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://moz.com/learn/seo')])[3]", "xpath:href"],
+        ["xpath=//ol/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d81eecf-a478-4dee-b41f-6e063a985fd2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Keyword Research",
+      "targets": [
+        ["linkText=Keyword Research", "linkText"],
+        ["css=.btn:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Keyword Research')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div[2]/div/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/learn/seo/keyword-research')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Keyword Research')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fcba81d-aad8-4925-8643-35b1ca3e4f4f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,353.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98979640-a4c4-49e3-a355-5a165088cfae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SEO Learning Center",
+      "targets": [
+        ["linkText=SEO Learning Center", "linkText"],
+        ["css=.breadcrumb-item > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'SEO Learning Center')])[2]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div/div/ol/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://moz.com/learn/seo')])[5]", "xpath:href"],
+        ["xpath=//ol/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6b0856f-6d7a-4d69-8ea1-efe5eaaa1b1d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ranking and Visibility",
+      "targets": [
+        ["linkText=Ranking and Visibility", "linkText"],
+        ["css=.btn:nth-child(11)", "css:finder"],
+        ["xpath=//a[contains(text(),'Ranking and Visibility')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div[2]/div/a[11]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/learn/seo/ranking-visibility')]", "xpath:href"],
+        ["xpath=//a[11]", "xpath:position"],
+        ["xpath=//a[contains(.,'Ranking and Visibility')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f2fc977-dc11-42ed-bcce-3a689d3860e6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SEO Learning Center",
+      "targets": [
+        ["linkText=SEO Learning Center", "linkText"],
+        ["css=.breadcrumb-item > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'SEO Learning Center')])[2]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div/div/ol/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://moz.com/learn/seo')])[6]", "xpath:href"],
+        ["xpath=//ol/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6879224-a568-48cc-a383-9a8ac35b0baa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Crawling and Site Audits",
+      "targets": [
+        ["linkText=Crawling and Site Audits", "linkText"],
+        ["css=.btn:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Crawling and Site Audits')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/div[2]/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/learn/seo/crawl-site-audit')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Crawling and Site Audits')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b07c4346-5345-47dd-86a4-51e3003c62ac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Google Algorithm Change History",
+      "targets": [
+        ["linkText=Google Algorithm Change History", "linkText"],
+        ["css=li:nth-child(12) > .inline", "css:finder"],
+        ["xpath=//a[contains(text(),'Google Algorithm Change History')]", "xpath:link"],
+        ["xpath=//ul[@id='related-resources']/li[12]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://moz.com/google-algorithm-change')]", "xpath:href"],
+        ["xpath=//li[12]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Google Algorithm Change History')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9eb17614-c845-4c08-a927-ff2308946187",
+      "comment": "",
+      "command": "click",
+      "target": "id=year-filter",
+      "targets": [
+        ["id=year-filter", "id"],
+        ["name=years", "name"],
+        ["css=#year-filter", "css:finder"],
+        ["xpath=//select[@id='year-filter']", "xpath:attributes"],
+        ["xpath=//div[@id='change-filters']/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc53f793-f5e2-4cad-a165-a7b1381b6a80",
+      "comment": "",
+      "command": "select",
+      "target": "id=year-filter",
+      "targets": [],
+      "value": "label=2005"
+    }, {
+      "id": "d577775d-5aff-4fcf-a927-a5f55fc749e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=status-filter",
+      "targets": [
+        ["id=status-filter", "id"],
+        ["name=status", "name"],
+        ["css=#status-filter", "css:finder"],
+        ["xpath=//select[@id='status-filter']", "xpath:attributes"],
+        ["xpath=//div[@id='change-filters']/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88848c5f-01e8-4280-a833-2c4ece88f7d7",
+      "comment": "",
+      "command": "select",
+      "target": "id=status-filter",
+      "targets": [],
+      "value": "label=Confirmed"
+    }, {
+      "id": "77aabbe3-09d5-41cd-bd0b-69597a96da7f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Google Merges Local and Maps Products (Google)",
+      "targets": [
+        ["linkText=Google Merges Local and Maps Products (Google)", "linkText"],
+        ["css=#\\32 005 > .card:nth-child(3) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Google Merges Local and Maps Products (Google)')]", "xpath:link"],
+        ["xpath=//article[@id='2005']/article[2]/div/div[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.google.com/press/pressrel/local_merge.html']", "xpath:href"],
+        ["xpath=//article[18]/article[2]/div/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Google Merges Local and Maps Products (Google)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2190f5eb-d275-478e-bcee-2d33615480c6",
+    "name": "moz-latest-posts",
+    "commands": [{
+      "id": "4856c554-ab2a-43a1-b52a-b99e42b86aa7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82976de9-80d3-4a30-bf5c-8678591106ca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1509x901",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95d22fd6-f613-4afe-b652-d5623512cf21",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Read the latest posts",
+      "targets": [
+        ["linkText=Read the latest posts", "linkText"],
+        ["css=.col-12:nth-child(3) .lead", "css:finder"],
+        ["xpath=//a[contains(text(),'Read the latest posts')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div[4]/div/div/div[3]/div/div[3]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/blog')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81d124de-7783-4c7b-850c-6a46bc90f8bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=category-select",
+      "targets": [
+        ["id=category-select", "id"],
+        ["css=#category-select", "css:finder"],
+        ["xpath=//select[@id='category-select']", "xpath:attributes"],
+        ["xpath=//main[@id='content']/header/div/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59824362-902c-45a0-a1ba-d5012db3c51a",
+      "comment": "",
+      "command": "select",
+      "target": "id=category-select",
+      "targets": [],
+      "value": "label=Branding"
+    }, {
+      "id": "42ee4d51-8070-48a2-81ef-750751a07329",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.container:nth-child(1) .col-12:nth-child(2) .header-image",
+      "targets": [
+        ["css=.container:nth-child(1) .col-12:nth-child(2) .header-image", "css:finder"],
+        ["xpath=//img[@alt='The Core Elements of Storytelling that B2B Can Learn from B2C']", "xpath:img"],
+        ["xpath=//main[@id='content']/div/section/div/article[2]/a/img", "xpath:idRelative"],
+        ["xpath=//article[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08f22084-2712-4e40-b70e-c65d58c85e0d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.container:nth-child(1) .col-12:nth-child(2) .header-image",
+      "targets": [
+        ["css=.container:nth-child(1) .col-12:nth-child(2) .header-image", "css:finder"],
+        ["xpath=//img[@alt='The Core Elements of Storytelling that B2B Can Learn from B2C']", "xpath:img"],
+        ["xpath=//main[@id='content']/div/section/div/article[2]/a/img", "xpath:idRelative"],
+        ["xpath=//article[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c13b94a9-15d9-4c99-a9b5-66d1d722c369",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=The Core Elements of Storytelling that B2B Can Learn from B2C",
+      "targets": [
+        ["linkText=The Core Elements of Storytelling that B2B Can Learn from B2C", "linkText"],
+        ["css=.container:nth-child(1) .col-12:nth-child(2) > .h3 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'The Core Elements of Storytelling that B2B Can Learn from B2C')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/section/div/article[2]/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://moz.com/blog/b2c-storytelling-for-b2b')])[2]", "xpath:href"],
+        ["xpath=//article[2]/h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'The Core Elements of Storytelling that B2B Can Learn from B2C')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0ca9f2e-46db-4c76-9cd0-b99a94e1d113",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,120)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64575e89-8cb9-49f1-9121-89cec4303866",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Post-Pandemic Travel Marketing: What Now?",
+      "targets": [
+        ["linkText=Post-Pandemic Travel Marketing: What Now?", "linkText"],
+        ["css=.container:nth-child(1) .col-12:nth-child(1) > .h3 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Post-Pandemic Travel Marketing: What Now?')]", "xpath:link"],
+        ["xpath=//main[@id='content']/div/section/div/article/h2/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://moz.com/blog/post-pandemic-travel-marketing')])[2]", "xpath:href"],
+        ["xpath=//h2/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Post-Pandemic Travel Marketing: What Now?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eed41648-f5c8-4d9b-8919-ca974425bc6f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,455.3333435058594)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af693261-5bfd-4095-ba98-3ca9890cf564",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2944)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "573ecaa3-33e0-4db5-b80c-03f2b33e5680",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a0b77168-b5d0-4578-aaac-b4de4c993a00"]
+  }],
+  "urls": ["https://moz.com/"],
+  "plugins": []
+}
